@@ -1,0 +1,26 @@
+{
+  "name": "atlas-lab-website",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "astro dev --ignore-lock",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "npm run validate && astro build",
+    "test:built": "node scripts/check-built.mjs",
+    "check": "npm test && npm run build && npm run test:built",
+    "preview": "astro preview",
+    "cms:generate": "node scripts/generate-cms.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.7",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "yaml": "^2.8.1"
+  }
+}

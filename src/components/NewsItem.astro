@@ -1,0 +1,18 @@
+---
+import { data, href, copy } from '../lib/site.mjs';
+import { displayDate, projectLinks } from '../lib/content.mjs';
+const { item } = Astro.props;
+const projects = projectLinks(data, item.projectIds);
+const people = data.people.filter(p => item.personIds.includes(p.id));
+const papers = data.publications.filter(p => item.publicationIds.includes(p.id));
+---
+<article class="news-item record" id={`news-${item.id}`} data-filter-item data-project={item.projectIds.join('|')} data-search={`${item.title} ${item.body}`}>
+  <time class="record-meta" datetime={item.date}>{displayDate(item.date)}</time><h3>{item.title}</h3>
+  {item.body.length > 450 ? <details><summary>{copy.news.readMore}</summary><p class="prose-text">{item.body}</p></details> : <p class="prose-text">{item.body}</p>}
+  <div class="record-links">
+    {projects.map(p => <a href={href(`/projects/${p.slug}/`)}>{p.title}</a>)}
+    {people.map(p => <a href={href(`/people/#person-${p.id}`)}>{p.name}</a>)}
+    {papers.map(p => <a href={href(`/publications/#publication-${p.id}`)}>{p.title}</a>)}
+    {item.links.map(l => <a href={l.url}>{l.label}</a>)}
+  </div>
+</article>

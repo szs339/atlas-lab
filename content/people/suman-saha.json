@@ -1,0 +1,31 @@
+{
+  "id": "suman-saha",
+  "published": true,
+  "name": "Suman Saha",
+  "role": "Associate Teaching Professor",
+  "category": "director",
+  "membershipStatus": "current",
+  "bio": "Dr. Saha studies computing education, AI-supported adaptive learning, pedagogical modeling, trustworthy large language models, and human-centered AI.",
+  "degree": "",
+  "startDate": "",
+  "endDate": "",
+  "position": "Penn State, Computer Science and Engineering",
+  "positionVerified": "",
+  "photo": "",
+  "photoAlt": "",
+  "links": [],
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Faculty lead",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "projectId": "cisb-bench",
+      "role": "Faculty lead",
+      "startDate": "",
+      "endDate": ""
+    }
+  ]
+}

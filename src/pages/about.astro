@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHead from '../components/PageHead.astro';
+import Person from '../components/Person.astro';
+import { data, settings, href, copy } from '../lib/site.mjs';
+const director=data.people.find(p=>p.id===settings.directorId)!;
+---
+<Layout title={copy.about.metaTitle}><div class="container page-content"><PageHead label={copy.about.eyebrow} title={copy.about.title} intro={copy.about.intro} />
+  <section class="section"><h2>{copy.about.labTitle}</h2><p class="prose-text wide-prose">{settings.about}</p></section>
+  <section class="section"><h2>{copy.about.directorTitle}</h2><Person person={director} />{settings.cvPath && <a class="button secondary" href={href('/cv/')}>{copy.cv.download} →</a>}</section>
+  <section class="section"><h2>{copy.about.contactTitle}</h2><p>{copy.about.contactIntro}</p><a class="contact-email" href={`mailto:${settings.email}`}>{settings.email}</a><p>{copy.about.location}</p></section>
+</div></Layout>

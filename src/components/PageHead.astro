@@ -1,0 +1,4 @@
+---
+const { label = 'ATLAS LAB', title, intro = '' } = Astro.props;
+---
+<div class="page-head"><p class="eyebrow">{label}</p><h1>{title}</h1>{intro && <p class="lead">{intro}</p>}<slot /></div>

@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHead from '../../components/PageHead.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import { data, copy, themeLabels } from '../../lib/site.mjs';
+
+---
+<Layout title={copy.projects.title}><div class="container page-content">
+  <PageHead label={copy.projects.eyebrow} title={copy.projects.title} intro={copy.projects.intro} />
+  <section data-filter-scope aria-label={copy.projects.directoryLabel}><FilterBar id="projects" placeholder={copy.projects.search} fields={[{key:'theme',label:copy.projects.areaFilter,options:Object.entries(themeLabels).map(([value,label])=>({value,label}))},{key:'status',label:copy.projects.statusFilter,options:[{value:'active',label:copy.projects.active},{value:'completed',label:copy.projects.completed}]}]} />
+    <div class="project-grid">{data.projects.map(p => <ProjectCard project={p} />)}</div><p class="empty" data-filter-empty hidden>{copy.projects.empty}</p>
+  </section>
+</div></Layout>

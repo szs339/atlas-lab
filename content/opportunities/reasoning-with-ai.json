@@ -1,0 +1,16 @@
+{
+  "id": "reasoning-with-ai",
+  "published": true,
+  "title": "Student reasoning with AI assistance",
+  "question": "How can we identify when AI assistance helps students explain and apply their own reasoning?",
+  "contribution": "Possible thesis directions include developing analysis methods for learning conversations, evaluating a feedback strategy, or studying independent application after AI-supported work. The research question and scope would be defined with the student.",
+  "background": "Interest in AI in education, programming, and empirical research. Relevant experience depends on the chosen question.",
+  "levels": [
+    "ms",
+    "honors"
+  ],
+  "availability": "discuss",
+  "projectIds": [
+    "alaaska"
+  ]
+}

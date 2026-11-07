@@ -1,0 +1,18 @@
+---
+import { data, href, copy } from '../lib/site.mjs';
+import { projectLinks } from '../lib/content.mjs';
+const { paper } = Astro.props;
+const projects = projectLinks(data, paper.projectIds);
+---
+<article class="publication record" id={`publication-${paper.id}`} data-filter-item data-year={paper.year} data-type={paper.type} data-project={paper.projectIds.join('|')} data-search={`${paper.title} ${paper.venue} ${paper.authors.map(a => a.name).join(' ')}`}>
+  <p class="record-meta">{paper.year} <span aria-hidden="true">/</span> {copy.publicationTypes[paper.type]} <span aria-hidden="true">/</span> {copy.publicationStatus[paper.status]}</p>
+  <h3>{paper.title}</h3>
+  <p>{paper.authors.map(a => a.name).join(', ')}</p><p><em>{paper.venue}</em></p>
+  <div class="record-links">
+    {paper.doi && <a href={`https://doi.org/${paper.doi}`}>{copy.publications.doi}</a>}
+    {paper.pdf && <a href={href(paper.pdf)}>{copy.publications.pdf}</a>}
+    {paper.url && <a href={paper.url}>{copy.publications.publicationLink}</a>}
+    {paper.links.map(l => <a href={l.url}>{l.label}</a>)}
+    {projects.map(p => <a href={href(`/projects/${p.slug}/`)}>{p.title}</a>)}
+  </div>
+</article>

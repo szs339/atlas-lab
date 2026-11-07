@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHead from '../components/PageHead.astro';
+import Person from '../components/Person.astro';
+import FilterBar from '../components/FilterBar.astro';
+import { data, href, copy } from '../lib/site.mjs';
+import { personGroups } from '../lib/content.mjs';
+const groups = personGroups(data);
+const labels = {'director':copy.people.directorHeading,'current-graduate':copy.people.currentGraduate,'current-undergraduate':copy.people.currentUndergraduate,'alumni-graduate':copy.people.alumniGraduate,'alumni-undergraduate':copy.people.alumniUndergraduate,'collaborator':copy.people.collaboratorsHeading};
+---
+<Layout title={copy.people.title}><div class="container page-content"><PageHead label={copy.people.eyebrow} title={copy.people.title} intro={copy.people.intro} />
+  <section data-filter-scope aria-label={copy.people.directoryLabel}><FilterBar id="people" placeholder={copy.people.search} fields={[{key:'membership',label:copy.people.membershipFilter,options:[{value:'current',label:copy.people.current},{value:'alumni',label:copy.people.alumni}]},{key:'category',label:copy.people.roleFilter,options:[{value:'director',label:copy.people.director},{value:'graduate',label:copy.people.graduate},{value:'undergraduate',label:copy.people.undergraduate},{value:'collaborator',label:copy.people.collaborator}]}]} />
+    {Object.entries(groups).filter(([,people])=>people.length).map(([key,people])=><section class="people-section" data-filter-group id={key}><h2>{labels[key]}</h2><div class="people-grid">{people.map(p => <Person person={p} />)}</div></section>)}
+    <p class="empty" data-filter-empty hidden>{copy.people.empty}</p>
+  </section>
+  <div class="note-block">{data.people.every(p=>p.category==='director') && <p>{copy.people.pending}</p>}<a href={href('/opportunities/')}>{copy.people.thesisLink} →</a></div>
+</div></Layout>

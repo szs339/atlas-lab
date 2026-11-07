@@ -1,0 +1,43 @@
+---
+import '../styles/site.css';
+import { href, settings, copy } from '../lib/site.mjs';
+const { title = '', description = settings.intro } = Astro.props;
+const nav = [['home','/'],['projects','/projects/'],['people','/people/'],['publications','/publications/'],['news','/news/'],['opportunities','/opportunities/'],['about','/about/']].map(([key,url])=>[copy.navigation[key],url]);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const current = Astro.url.pathname.slice(base.length) || '/';
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#102c48" />
+    <title>{title ? `${title} | ${settings.title} ${copy.brand.titleConnector} ${settings.affiliation}` : `${settings.title} ${copy.brand.titleConnector} ${settings.affiliation}`}</title>
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="icon" type="image/svg+xml" href={href('/favicon.svg')} />
+    <meta property="og:title" content={title ? `${title} | ${settings.title}` : `${settings.title} ${copy.brand.titleConnector} ${settings.affiliation}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{copy.brand.skipLink}</a>
+    <header class="site-header">
+      <div class="container brand-row">
+        <a class="brand" href={href('/')} aria-label={copy.brand.homeLabel}><strong>{copy.brand.wordmark}<span>{copy.brand.suffix}</span></strong><small>{copy.brand.affiliationTag}</small></a>
+        <p class="brand-description">{settings.expansion}</p>
+      </div>
+      <nav class="container site-nav" aria-label={copy.brand.navigationLabel}>
+        {nav.map(([label, url]) => <a href={href(url)} aria-current={(url === '/' ? current === '/' : current.startsWith(url)) ? 'page' : undefined}>{label}</a>)}
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><strong>{settings.title} {copy.brand.titleConnector} {settings.affiliation}</strong><p>{settings.expansion}</p></div>
+        <div><a href={`mailto:${settings.email}`}>{settings.email}</a><p><a href={copy.brand.institutionUrl}>{copy.brand.institutionLabel}</a> <span aria-hidden="true">·</span> <a href={href('/opportunities/')}>{copy.brand.footerThesisLink}</a></p></div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "id": "alaaska",
+  "published": true,
+  "slug": "alaaska",
+  "title": "ALAASKA",
+  "expansion": "Adaptive Learning for All through AI-Powered Student Knowledge Assessment",
+  "summary": "Understanding and supporting student reasoning through AI-guided learning conversations.",
+  "research": "ALAASKA explores how conversational AI and adaptive support can help students work through computing problems. The research examines student reasoning, the timing and use of assistance, and responsible engagement with AI during learning.",
+  "theme": "learning",
+  "status": "active",
+  "featured": true,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}

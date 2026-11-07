@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHead from '../components/PageHead.astro';
+import Publication from '../components/Publication.astro';
+import FilterBar from '../components/FilterBar.astro';
+import { data, copy } from '../lib/site.mjs';
+const years = [...new Set(data.publications.map(p=>p.year))];
+---
+<Layout title={copy.publications.title}><div class="container page-content"><PageHead label={copy.publications.eyebrow} title={copy.publications.title} intro={copy.publications.intro} />
+  {data.publications.length ? <section data-filter-scope aria-label={copy.publications.directoryLabel}><FilterBar id="publications" placeholder={copy.publications.search} fields={[{key:'year',label:copy.filters.year,options:years.map(y=>({value:String(y),label:String(y)}))},{key:'project',label:copy.filters.project,options:data.projects.map(p=>({value:p.id,label:p.title}))},{key:'type',label:copy.filters.type,options:['conference','journal','workshop','poster','preprint','other'].map(v=>({value:v,label:copy.publicationTypes[v]}))}]} />{data.publications.map(p=><Publication paper={p} />)}<p class="empty" data-filter-empty hidden>{copy.publications.empty}</p></section> : <div class="empty large"><h2>{copy.publications.pendingTitle}</h2><p>{copy.publications.pendingText}</p></div>}
+</div></Layout>

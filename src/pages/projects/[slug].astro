@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Person from '../../components/Person.astro';
+import Publication from '../../components/Publication.astro';
+import NewsItem from '../../components/NewsItem.astro';
+import Opportunity from '../../components/Opportunity.astro';
+import { data, allContent, href, copy, themeLabels } from '../../lib/site.mjs';
+import { forProject, displayDate } from '../../lib/content.mjs';
+export function getStaticPaths() { return data.projects.map(p => ({ params: { slug: p.slug }, props: { projectId: p.id } })); }
+const record = forProject(allContent, Astro.props.projectId)!;
+const { project, people, publications, funding, resources, news, opportunities } = record;
+const current = people.filter(p => p.membershipStatus === 'current' && !p.memberships.find(m => m.projectId === project.id)?.endDate);
+const former = people.filter(p => !current.includes(p));
+const sections = [{id:'research',label:copy.projectPage.research,show:!!project.research},{id:'people',label:copy.projectPage.people,show:people.length},{id:'publications',label:copy.projectPage.publications,show:publications.length},{id:'funding',label:copy.projectPage.funding,show:funding.length},{id:'resources',label:copy.projectPage.resources,show:resources.length},{id:'news',label:copy.projectPage.news,show:news.length},{id:'opportunities',label:copy.projectPage.opportunities,show:opportunities.length}].filter(s=>s.show);
+---
+<Layout title={project.title} description={project.summary}><div class="container page-content">
+  <a class="breadcrumb" href={href('/projects/')}>← {copy.projectPage.back}</a>
+  <div class="page-head"><p class="eyebrow">{themeLabels[project.theme]} <span aria-hidden="true">/</span> {copy.projects[project.status]}</p><h1>{project.title}</h1>{project.expansion && <p class="project-expansion">{project.expansion}</p>}<p class="lead">{project.summary}</p><div class="record-links">{project.links.map(l => <a href={l.url}>{l.label} →</a>)}</div></div>
+  {sections.length > 0 && <nav class="section-nav" aria-label={copy.projectPage.sectionsLabel}>{sections.map(s => <a href={`#${s.id}`}>{s.label}</a>)}</nav>}
+  {project.image && <img class="project-image" src={href(project.image)} alt={project.imageAlt} loading="lazy" />}
+  {project.research && <section class="section" id="research"><p class="eyebrow">{copy.projectPage.researchEyebrow}</p><h2>{copy.projectPage.research}</h2><p class="prose-text wide-prose">{project.research}</p></section>}
+  {people.length > 0 && <section class="section" id="people"><h2>{copy.projectPage.people}</h2><div class="people-grid">{current.map(p => <div><Person person={p} compact /><p class="small participation">{p.memberships.find(m=>m.projectId===project.id)?.role}</p></div>)}</div>{former.length > 0 && <><h3 class="subheading">{copy.projectPage.former}</h3><div class="people-grid">{former.map(p => <Person person={p} compact />)}</div></>}</section>}
+  {publications.length > 0 && <section class="section" id="publications"><h2>{copy.projectPage.publications}</h2>{publications.map(p => <Publication paper={p} />)}</section>}
+  {funding.length > 0 && <section class="section" id="funding"><h2>{copy.projectPage.fundingTitle}</h2>{funding.map(f => <article class="record" id={`funding-${f.id}`}><p class="record-meta">{f.sponsor} · {copy.projects[f.status]}</p><h3>{f.title}</h3>{f.awardId && <p>{copy.projectPage.award} {f.awardId}</p>}{f.investigators.length > 0 && <p>{f.investigators.join('; ')}</p>}{(f.startDate || f.endDate) && <p>{displayDate(f.startDate)}{f.endDate && ` – ${displayDate(f.endDate)}`}</p>}{f.amount != null && <p>{f.amountLabel}: {new Intl.NumberFormat('en-US',{style:'currency',currency:f.currency,maximumFractionDigits:0}).format(f.amount)}</p>}{f.url && <a href={f.url}>{copy.projectPage.awardDetails} →</a>}</article>)}</section>}
+  {resources.length > 0 && <section class="section" id="resources"><h2>{copy.projectPage.resources}</h2>{resources.map(r => <article class="record" id={`resource-${r.id}`}><p class="record-meta">{copy.resourceTypes[r.type]}</p><h3><a href={href(r.url)}>{r.title} →</a></h3>{r.description && <p>{r.description}</p>}</article>)}</section>}
+  {news.length > 0 && <section class="section" id="news"><h2>{copy.projectPage.newsTitle}</h2>{news.map(item => <NewsItem item={item} />)}</section>}
+  {opportunities.length > 0 && <section class="section" id="opportunities"><h2>{copy.projectPage.opportunitiesTitle}</h2><p>{copy.projectPage.thesisIntro}</p>{opportunities.map(item => <Opportunity item={item} />)}</section>}
+</div></Layout>

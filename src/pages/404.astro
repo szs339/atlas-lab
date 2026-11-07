@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href, copy } from '../lib/site.mjs';
+---
+<Layout title={copy.notFound.metaTitle}><div class="container page-content"><div class="page-head"><p class="eyebrow">404</p><h1>{copy.notFound.title}</h1><p class="lead">{copy.notFound.intro}</p><a class="button" href={href('/')}>{copy.notFound.back}</a></div></div></Layout>

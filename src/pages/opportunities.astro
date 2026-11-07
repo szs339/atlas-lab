@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHead from '../components/PageHead.astro';
+import Opportunity from '../components/Opportunity.astro';
+import FilterBar from '../components/FilterBar.astro';
+import { data, settings, inquiryUrl, copy } from '../lib/site.mjs';
+const items=data.opportunities.filter(o=>o.availability!=='closed');
+---
+<Layout title={copy.opportunities.metaTitle}><div class="container page-content"><PageHead label={copy.opportunities.eyebrow} title={copy.opportunities.title} intro={settings.opportunityIntro} />
+  <div class="pathways"><article><p class="eyebrow">{copy.opportunities.graduateLabel}</p><h2>{copy.opportunities.msTitle}</h2><p>{copy.opportunities.msDescription}</p></article><article><p class="eyebrow">{copy.opportunities.undergraduateLabel}</p><h2>{copy.opportunities.honorsTitle}</h2><p>{copy.opportunities.honorsDescription}</p></article></div>
+  <section class="section" data-filter-scope aria-label={copy.opportunities.directoryLabel}><h2>{copy.opportunities.ideasTitle}</h2><p>{copy.opportunities.ideasIntro}</p>
+    {items.length > 0 && <FilterBar id="opportunities" placeholder={copy.opportunities.search} fields={[{key:'level',label:copy.opportunities.pathwayFilter,options:[{value:'ms',label:copy.opportunities.msTitle},{value:'honors',label:copy.opportunities.honorsTitle}]},{key:'project',label:copy.filters.project,options:data.projects.map(p=>({value:p.id,label:p.title}))}]} />}
+    {items.map(item=><Opportunity item={item} />)}<p class="empty" data-filter-empty hidden={items.length>0}>{copy.opportunities.empty}</p>
+  </section>
+  <section class="contact-panel" id="contact"><p class="eyebrow">{copy.opportunities.contactEyebrow}</p><h2>{copy.opportunities.contactTitle}</h2><p>{settings.inquiryInstructions}</p><a class="button" href={inquiryUrl(copy.opportunities.emailSubject)}>{copy.opportunities.emailButton} →</a></section>
+</div></Layout>

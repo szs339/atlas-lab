@@ -1,0 +1,15 @@
+{
+  "id": "cisb-bench",
+  "published": true,
+  "slug": "cisb-bench",
+  "title": "CISB-Bench",
+  "expansion": "Compiler-introduced security bugs",
+  "summary": "Auditable evidence for studying security-relevant changes introduced by compiler optimizations.",
+  "research": "CISB-Bench supports research on compiler-introduced security bugs using source and intermediate-representation evidence. The project connects reproducible program analysis with careful examination of the evidence behind security labels.",
+  "theme": "systems",
+  "status": "active",
+  "featured": true,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}

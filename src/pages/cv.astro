@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { settings, href, data, copy } from '../lib/site.mjs';
+---
+<Layout title={copy.cv.title}><div class="container page-content"><div class="page-head"><p class="eyebrow">{data.people.find(p=>p.id===settings.directorId)?.name}</p><h1>{copy.cv.title}</h1></div>{settings.cvPath ? <><p>{copy.cv.intro}</p><a class="button" href={href(settings.cvPath)} download>{copy.cv.download} →</a></> : <p>{copy.cv.pending}</p>}<p><a href={href('/about/')}>{copy.cv.back} →</a></p></div></Layout>

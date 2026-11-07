@@ -1,0 +1,16 @@
+{
+  "id": "compiler-security-analysis",
+  "published": true,
+  "title": "Evidence for compiler security analysis",
+  "question": "How can analysis tools make compiler-related security findings easier to reproduce and evaluate?",
+  "contribution": "Possible thesis directions include evaluating analysis baselines, improving evidence tracing, or developing reproducibility tools. The final contribution would be scoped to the student’s degree and timeline.",
+  "background": "Interest in systems, C/C++, compilers, static analysis, or software security.",
+  "levels": [
+    "ms",
+    "honors"
+  ],
+  "availability": "discuss",
+  "projectIds": [
+    "cisb-bench"
+  ]
+}

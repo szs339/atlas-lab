@@ -1,0 +1,35 @@
+---
+import { copy } from '../lib/site.mjs';
+const { fields = [], placeholder = copy.filters.search, id = 'directory' } = Astro.props;
+---
+<div class="filters" data-filter-controls data-result-one={copy.filters.oneResult} data-result-many={copy.filters.manyResults} hidden>
+  <label class="search-label" for={`${id}-search`}>{copy.filters.search}<input id={`${id}-search`} type="search" data-search-input placeholder={placeholder} autocomplete="off" /></label>
+  {fields.map(f => <label for={`${id}-${f.key}`}>{f.label}<select id={`${id}-${f.key}`} data-filter={f.key}><option value="">{copy.filters.all}</option>{f.options.map(o => <option value={o.value}>{o.label}</option>)}</select></label>)}
+  <button type="button" data-reset class="reset-button">{copy.filters.reset}</button>
+</div>
+<p class="small filter-result" data-filter-result role="status" aria-live="polite"></p>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-filter-scope]').forEach(scope => {
+    const controls = scope.querySelector<HTMLElement>('[data-filter-controls]');
+    if (!controls || controls.dataset.ready) return;
+    controls.dataset.ready = 'true'; controls.hidden = false;
+    const search = controls.querySelector<HTMLInputElement>('[data-search-input]')!;
+    const selects = [...controls.querySelectorAll<HTMLSelectElement>('[data-filter]')];
+    const items = [...scope.querySelectorAll<HTMLElement>('[data-filter-item]')];
+    const update = () => {
+      const q = search.value.trim().toLocaleLowerCase(); let count = 0;
+      items.forEach(item => {
+        const matches = (!q || (item.dataset.search || '').toLocaleLowerCase().includes(q)) && selects.every(s => !s.value || (item.dataset[s.dataset.filter!] || '').split('|').includes(s.value));
+        item.hidden = !matches; if (matches) count++;
+      });
+      scope.querySelectorAll<HTMLElement>('[data-filter-group]').forEach(g => { g.hidden = ![...g.querySelectorAll<HTMLElement>('[data-filter-item]')].some(i => !i.hidden); });
+      const message = scope.querySelector<HTMLElement>('[data-filter-result]');
+      if (message) message.textContent = `${count} ${count === 1 ? controls.dataset.resultOne : controls.dataset.resultMany}`;
+      const empty = scope.querySelector<HTMLElement>('[data-filter-empty]');
+      if (empty) empty.hidden = count > 0;
+    };
+    controls.addEventListener('input', update); controls.addEventListener('change', update);
+    controls.querySelector('[data-reset]')?.addEventListener('click', () => { search.value = ''; selects.forEach(s => s.value = ''); update(); });
+    update();
+  });
+</script>

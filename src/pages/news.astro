@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHead from '../components/PageHead.astro';
+import NewsItem from '../components/NewsItem.astro';
+import FilterBar from '../components/FilterBar.astro';
+import { data, copy } from '../lib/site.mjs';
+---
+<Layout title={copy.news.title}><div class="container page-content"><PageHead label={copy.news.eyebrow} title={copy.news.title} intro={copy.news.intro} />
+  {data.news.length ? <section data-filter-scope aria-label={copy.news.directoryLabel}><FilterBar id="news" placeholder={copy.news.search} fields={[{key:'project',label:copy.filters.project,options:data.projects.map(p=>({value:p.id,label:p.title}))}]} />{data.news.map(item=><NewsItem item={item} />)}<p class="empty" data-filter-empty hidden>{copy.news.empty}</p></section> : <div class="empty large"><h2>{copy.news.pendingTitle}</h2><p>{copy.news.pendingText}</p></div>}
+</div></Layout>
