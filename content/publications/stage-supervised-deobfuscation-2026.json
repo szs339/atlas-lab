@@ -1,10 +1,10 @@
 {
   "id": "stage-supervised-deobfuscation-2026",
+  "published": true,
   "title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
   "authors": [
     {
-      "name": "Rong Feng",
-      "personId": ""
+      "name": "Rong Feng"
     },
     {
       "name": "Suman Saha",
@@ -15,11 +15,10 @@
   "venue": "arXiv:2609.27058",
   "type": "preprint",
   "status": "preprint",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
-  "doi": "",
+  "projectIds": [
+    "obfuscation"
+  ],
   "pdf": "https://arxiv.org/pdf/2609.27058",
   "url": "https://arxiv.org/abs/2609.27058",
-  "links": []
+  "featured": false
 }
