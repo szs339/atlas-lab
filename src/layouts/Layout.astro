@@ -14,7 +14,7 @@ const canonical = !noindex && Astro.site ? new URL(Astro.url.pathname, Astro.sit
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex" />}
-    <meta name="theme-color" content="#102c48" />
+    <meta name="theme-color" content="#242424" />
     <title>{title ? `${title} | ${settings.title} ${copy.brand.titleConnector} ${settings.affiliation}` : `${settings.title} ${copy.brand.titleConnector} ${settings.affiliation}`}</title>
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/svg+xml" href={href('/favicon.svg')} />
