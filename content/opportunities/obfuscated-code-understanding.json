@@ -1,0 +1,14 @@
+{
+  "id": "obfuscated-code-understanding",
+  "published": true,
+  "title": "Reliable AI for Understanding Obfuscated Code",
+  "question": "Can AI recover the behavior of obfuscated programs while preserving the evidence needed for security analysis?",
+  "contribution": "Security reviewers often need to understand code whose structure has been deliberately obscured. AI assistance is useful only when its explanations or reconstructions remain faithful to what the program actually does. This direction explores combining language models with program structure, execution evidence, and automated checks. A thesis could develop a deobfuscation method, build a benchmark, or evaluate robustness to unfamiliar transformations. Possible applications include explaining difficult JavaScript and recognizing security-relevant behavior hidden by obfuscation.",
+  "background": "Python or JavaScript, program analysis, machine learning, or an interest in software security.",
+  "levels": [
+    "ms",
+    "honors"
+  ],
+  "availability": "discuss",
+  "projectIds": []
+}

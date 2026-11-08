@@ -57,7 +57,7 @@ Resources contain a title, type, link, description, and relevant projects. They 
 
 ## Add a thesis idea
 
-Enter a research question, possible contribution/scope, useful background, eligible pathways (M.S., undergraduate honors, or both), and related projects. Availability means:
+Enter a research question, possible contribution/scope, useful background, and eligible pathways (M.S., undergraduate honors, or both). Related projects are optional: leave them empty for broad research ideas without a named project. Only linked ideas appear on project pages, and the project filter appears when there are linked projects to choose from. Search covers the full idea, including its possible contribution. Availability means:
 
 - **Discuss an idea:** a starting point to scope with a student.
 - **Open for inquiries:** currently accepting inquiries about this direction.

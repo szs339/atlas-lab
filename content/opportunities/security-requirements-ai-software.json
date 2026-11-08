@@ -1,0 +1,14 @@
+{
+  "id": "security-requirements-ai-software",
+  "published": true,
+  "title": "Clarifying Security Requirements for AI-Generated Software",
+  "question": "How can AI-assisted development uncover missing security requirements before they become software vulnerabilities?",
+  "contribution": "AI can generate software from brief requests that leave important decisions about access, data handling, and permitted behavior unspecified. This direction investigates how tools can expose those gaps through concrete examples of how a program could behave. A thesis could develop methods for generating and testing alternative interpretations, identifying questions that require human judgment, and translating clarified requirements into security tests. The aim is to help developers make informed decisions and evaluate whether the resulting software respects them.",
+  "background": "Software testing, program analysis, application security, or human-centered software engineering.",
+  "levels": [
+    "ms",
+    "honors"
+  ],
+  "availability": "discuss",
+  "projectIds": []
+}

@@ -1,16 +1,14 @@
 {
   "id": "compiler-security-analysis",
   "published": true,
-  "title": "Evidence for compiler security analysis",
-  "question": "How can analysis tools make compiler-related security findings easier to reproduce and evaluate?",
-  "contribution": "Possible thesis directions include evaluating analysis baselines, improving evidence tracing, or developing reproducibility tools. The final contribution would be scoped to the student’s degree and timeline.",
-  "background": "Interest in systems, C/C++, compilers, static analysis, or software security.",
+  "title": "Detecting Security Risks Introduced During Compilation",
+  "question": "How can we determine whether compiler transformations preserve the security properties that developers rely on?",
+  "contribution": "Trustworthy software requires understanding how security-relevant behavior changes from source code to executable programs. This matters for both human-written and AI-generated code. This direction combines compiler analysis, language models, and reproducible testing to examine transformations that may weaken intended protections. A thesis could investigate real bug cases, build and evaluate detection methods, or develop explanations grounded in source code and intermediate representations. The emphasis is on distinguishing genuine security risks from harmless changes and making findings independently checkable.",
+  "background": "C or C++, compilers, program analysis, software security, or language-model evaluation.",
   "levels": [
     "ms",
     "honors"
   ],
   "availability": "discuss",
-  "projectIds": [
-    "cisb-bench"
-  ]
+  "projectIds": []
 }

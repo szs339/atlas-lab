@@ -40,6 +40,14 @@ test('external authors work without creating person pages or lab memberships', (
   const d=fixture(); assert.equal(d.publications[0].authors[1].personId,'');
   assert.ok(!d.people.some(p=>p.name==='External Author'));
 });
+test('broad thesis ideas can stand alone while project references remain validated', () => {
+  const d=fixture();d.opportunities[0].projectIds=[];
+  const validated=validateRecords(d);
+  assert.ok(publicContent(validated).opportunities.some(o=>o.id==='test-idea'));
+  assert.ok(!forProject(validated,'alaaska').opportunities.some(o=>o.id==='test-idea'));
+  d.opportunities[0].projectIds=['unknown-project'];
+  assert.throws(()=>validateRecords(d),/Unknown projects reference 'unknown-project'/);
+});
 test('news uses chronological ordering and dates do not shift with timezone', () => {
   const d=fixture(); d.news.push({...d.news[0],id:'earlier-news',date:'2026-02-01'});
   assert.deepEqual(publicContent(d).news.map(n=>n.id),['test-news','earlier-news']);

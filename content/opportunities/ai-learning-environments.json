@@ -1,0 +1,14 @@
+{
+  "id": "ai-learning-environments",
+  "published": true,
+  "title": "AI Learning Environments for Independent Problem Solving",
+  "question": "How can AI guide students through difficult problems while helping them develop skills they can use independently?",
+  "contribution": "As generative AI becomes part of everyday study and programming, learning environments need to support the reasoning that makes knowledge usable beyond an assisted task. This direction explores conversational feedback, problem decomposition, interactive visualizations, and programming activities that invite students to explain, test, and revise their ideas. A thesis could develop a learning tool or evaluate a specific form of guidance, examining both students’ experiences and their performance on later tasks completed independently.",
+  "background": "Programming, web or application development, and an interest in education or human–AI interaction.",
+  "levels": [
+    "ms",
+    "honors"
+  ],
+  "availability": "discuss",
+  "projectIds": []
+}

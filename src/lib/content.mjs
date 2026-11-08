@@ -62,7 +62,7 @@ export const schemas = {
   }),
   opportunities: z.strictObject({ ...common, title: text, question: text, contribution: text,
     background: optionalText, levels: z.array(z.enum(['ms', 'honors'])).min(1),
-    availability: z.enum(['discuss', 'open', 'closed']), projectIds: z.array(id).min(1)
+    availability: z.enum(['discuss', 'open', 'closed']), projectIds: ids
   })
 };
 export const settingsSchema = z.strictObject({

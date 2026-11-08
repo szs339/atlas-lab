@@ -1,0 +1,14 @@
+{
+  "id": "prompt-injection-defense",
+  "published": true,
+  "title": "Protecting AI Assistants from Prompt Injection",
+  "question": "How can AI systems distinguish useful external information from instructions that attempt to redirect their behavior?",
+  "contribution": "AI assistants increasingly read documents, retrieve web content, and use software tools, creating opportunities for untrusted material to influence their decisions. This direction studies defenses that consider the meaning, source, and intended effect of instructions. A thesis could develop detection methods, evaluate whether tool actions remain within a user’s authorization, or test robustness under paraphrasing and adaptive attacks. Evaluation would consider both blocked attacks and the assistant’s ability to complete legitimate tasks without unnecessary refusals.",
+  "background": "Natural language processing, cybersecurity, language-model evaluation, or tool-using AI systems.",
+  "levels": [
+    "ms",
+    "honors"
+  ],
+  "availability": "discuss",
+  "projectIds": []
+}

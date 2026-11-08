@@ -3,7 +3,7 @@ import { data, href, inquiryUrl, copy } from '../lib/site.mjs';
 import { projectLinks } from '../lib/content.mjs';
 const { item } = Astro.props;
 ---
-<article class="opportunity record" id={`opportunity-${item.id}`} data-filter-item data-level={item.levels.join('|')} data-project={item.projectIds.join('|')} data-search={`${item.title} ${item.question} ${item.background}`}>
+<article class="opportunity record" id={`opportunity-${item.id}`} data-filter-item data-level={item.levels.join('|')} data-project={item.projectIds.join('|')} data-search={`${item.title} ${item.question} ${item.contribution} ${item.background}`}>
   <div class="card-top"><p class="record-meta">{item.levels.map(l => l === 'ms' ? copy.opportunities.msTitle : copy.opportunities.honorsTitle).join(' · ')}</p><span class="status">{copy.opportunities[item.availability]}</span></div>
   <h3>{item.title}</h3><p class="question">{item.question}</p><p>{item.contribution}</p>
   {item.background && <p><strong>{copy.opportunities.background}:</strong> {item.background}</p>}

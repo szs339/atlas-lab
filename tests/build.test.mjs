@@ -20,6 +20,7 @@ test('populated site builds at root and a repository subpath, without draft rout
     d.pageText.themes.learning='Edited learning area';
     d.pageText.filters.manyResults='matches';
     d.settings.recentNewsLimit=1;
+    d.opportunities.push({...d.opportunities[0],id:'broad-thesis',title:'Broad thesis sentinel',contribution:'Searchable contribution sentinel',projectIds:[]});
     d.news.push(
       {...d.news[0],id:'featured-news',title:'Featured news sentinel',date:'2026-09-01',featured:true},
       {...d.news[0],id:'older-featured-news',title:'Older featured news sentinel',date:'2026-08-01',featured:true},
@@ -53,6 +54,9 @@ test('populated site builds at root and a repository subpath, without draft rout
       assert.ok(read('people').includes('Example University, graduate student'));
       assert.ok(!read('people').includes('listings are being prepared'));
       assert.ok(!read('opportunities').includes('Closed idea sentinel'));
+      assert.ok(read('opportunities').includes('Broad thesis sentinel'));
+      assert.ok(read('opportunities').includes('Searchable contribution sentinel'));
+      assert.ok(!project.includes('Broad thesis sentinel'));
       for(const file of fs.readdirSync(path.join(tmp,'dist'),{recursive:true}).filter(f=>f.endsWith('.html'))) {
         const html=fs.readFileSync(path.join(tmp,'dist',file),'utf8');
         assert.ok(!html.includes('Draft paper sentinel')&&!html.includes('Draft project sentinel')&&!html.includes('Draft news sentinel'),file);

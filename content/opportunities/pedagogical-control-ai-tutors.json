@@ -1,0 +1,14 @@
+{
+  "id": "pedagogical-control-ai-tutors",
+  "published": true,
+  "title": "AI Tutors with Controllable Teaching Strategies",
+  "question": "Can an AI tutor reliably follow and combine different teaching strategies as a conversation unfolds?",
+  "contribution": "An AI tutor’s educational value depends on how it responds to a learner: when it asks questions, explains a concept, offers a hint, or invites reflection. This direction investigates how educators can specify and inspect those behaviors. A thesis could build methods for reproducing or combining instructional strategies, then evaluate whether the tutor follows them across different problems and extended conversations. Evaluation would examine correctness, relevance, consistency, and human judgments of instructional coherence.",
+  "background": "Machine learning, natural language processing, language-model development, or experimental evaluation.",
+  "levels": [
+    "ms",
+    "honors"
+  ],
+  "availability": "discuss",
+  "projectIds": []
+}

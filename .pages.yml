@@ -1490,9 +1490,9 @@ content:
             - name: closed
               label: Closed
       - name: projectIds
-        label: Related projects
+        label: Related projects (optional)
         type: reference
-        required: true
+        required: false
         options:
           collection: projects
           multiple: true

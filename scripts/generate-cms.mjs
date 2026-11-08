@@ -53,7 +53,7 @@ const fields = {
     required('contribution','Possible contribution and scope','text'), f('background','Useful background','text'),
     required('levels','Thesis pathways','select',{options:{values:[{name:'ms',label:'M.S. thesis'},{name:'honors',label:'Undergraduate honors thesis'}],multiple:true,min:1}}),
     select('availability','Availability',[{name:'discuss',label:'Discuss an idea'},{name:'open',label:'Open for inquiries'},{name:'closed',label:'Closed'}]),
-    ref('projectIds','Related projects','projects',true,true)
+    ref('projectIds','Related projects (optional)','projects')
   ]
 };
 const labels={people:'People',projects:'Projects',publications:'Publications',news:'News',funding:'Funding (project sections)',resources:'Resources (project sections)',opportunities:'Thesis opportunities'};
