@@ -18,6 +18,9 @@
   "venue": "38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)",
   "type": "conference",
   "status": "accepted",
+  "projectIds": [
+    "toledo"
+  ],
   "url": "https://suryanshss1011.github.io/blog/cargo/",
   "featured": true
 }
