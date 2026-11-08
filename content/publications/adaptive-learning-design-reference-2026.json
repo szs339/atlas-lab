@@ -1,5 +1,6 @@
 {
   "id": "adaptive-learning-design-reference-2026",
+  "published": true,
   "title": "WIP: A Design Reference for Using Generative AI to Support Adaptive Learning in Engineering Education",
   "authors": [
     {
@@ -7,27 +8,21 @@
       "personId": "suman-saha"
     },
     {
-      "name": "Onil Morshed",
-      "personId": ""
+      "name": "Onil Morshed"
     },
     {
-      "name": "Vincent Fakiyesi",
-      "personId": ""
+      "name": "Vincent Fakiyesi"
     },
     {
-      "name": "Mahfuza Farooque",
-      "personId": ""
+      "name": "Mahfuza Farooque"
     }
   ],
   "year": 2026,
   "venue": "IEEE Frontiers in Education Conference (FIE)",
   "type": "conference",
   "status": "accepted",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
-  "doi": "",
-  "pdf": "",
-  "url": "",
-  "links": []
+  "projectIds": [
+    "alaaska"
+  ],
+  "featured": false
 }
