@@ -5,11 +5,9 @@
   "date": "2026-11-08",
   "body": "“From Programs to Subproblems: Execution-Grounded Pre-Deployment Validation” has been accepted for poster presentation at SIGCSE Virtual, the 2nd ACM Virtual Global Computing Education Conference, in November 2026. The authors are Daksh Mainee, Sanan Goel, and Suman Saha.",
   "featured": false,
-  "projectIds": [],
   "personIds": [
-    "suman-saha"
-  ],
-  "publicationIds": [],
-  "fundingIds": [],
-  "links": []
+    "suman-saha",
+    "sanan-goel",
+    "daksh-mainee"
+  ]
 }
