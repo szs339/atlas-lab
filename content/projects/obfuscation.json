@@ -1,0 +1,15 @@
+{
+  "id": "obfuscation",
+  "published": true,
+  "slug": "obfuscation",
+  "title": "AI for Obfuscated Code Analysis",
+  "expansion": "",
+  "summary": "Recovering program behavior from obfuscated code and testing how code transformations affect security analysis.",
+  "research": "Code obfuscation can hide a program’s structure and make security-relevant behavior difficult to recognize. This project investigates how language models and program-analysis methods can help analysts understand obfuscated code, with particular attention to JavaScript. A readable reconstruction is useful only when it remains faithful to the behavior of the original program.\n\nOne research direction studies deobfuscation and semantic recovery, including methods that use intermediate reasoning stages to guide a model toward a usable reconstruction. Evaluation examines functional behavior and the evidence supporting an interpretation, alongside readability and robustness to different transformations.\n\nA complementary direction studies how obfuscation affects vulnerability detection. Work on cross-site scripting (XSS) examines generated and transformed test cases, validates their behavior in a browser, and evaluates their effect on machine-learning-based detectors. The shared objective is more reliable security analysis: clearer explanations and reconstructions, stronger evaluation data, and explicit checks that conclusions about transformed code are behaviorally justified.",
+  "theme": "systems",
+  "status": "active",
+  "featured": false,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}

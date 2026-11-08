@@ -1,0 +1,15 @@
+{
+  "id": "sierra",
+  "published": true,
+  "slug": "sierra",
+  "title": "SIERRA",
+  "expansion": "Sequential Interaction Evidence for Reasoning Responsibility Assessment",
+  "summary": "Studying whether patterns of student reasoning during AI-assisted work predict later independent problem solving.",
+  "research": "A correct AI-assisted solution does not, by itself, show what a student can explain or apply independently. SIERRA investigates reasoning responsibility: students’ observable contributions to generating, evaluating, justifying, and adapting ideas in relation to AI assistance.\n\nThe project asks whether the sequence of these contributions provides useful evidence beyond their overall amount and quality. For example, students who receive similar assistance may differ in whether they later justify and adapt an idea themselves or continue relying on AI for comparable steps. Planned studies connect recorded student–AI interactions with baseline assessments and delayed tasks completed without AI.\n\nHuman coding, expert review, and targeted interviews will help validate how interaction patterns are interpreted. Predictive evaluations will compare sequence-based indicators with prior knowledge, assisted-answer quality, assistance use, and simpler summaries of the same reasoning evidence. The goal is to help educators make better-supported judgments about independent learning while recognizing when interaction records are insufficient and further assessment is needed.",
+  "theme": "interaction",
+  "status": "active",
+  "featured": false,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "toledo",
+  "published": true,
+  "slug": "toledo",
+  "title": "TOLEDO",
+  "expansion": "Test-Oracle Learning through Executable Disagreement and Oversight",
+  "summary": "Using executable disagreements and targeted human clarification to strengthen security checks for AI-generated software.",
+  "research": "AI-generated software can pass its current tests while leaving important security decisions unexamined. TOLEDO investigates how to improve a test oracle: the checks used to decide whether software behaves as intended. The project uses disagreements between candidate implementations to identify concrete situations in which their security behavior differs.\n\nA central distinction is whether a disagreement exposes missing test coverage, an implementation error, or a genuinely unspecified requirement. When an existing requirement already determines the correct behavior, the response should be a stronger test and an appropriate repair. When the intended policy remains unresolved, a focused question to an authorized person may be necessary before a new check can be defined.\n\nThe initial research focuses on controlled backend-software tasks and security-sensitive behavior. We are developing methods to turn disagreements into executable examples, determine what evidence already resolves them, and incorporate justified clarifications into tests. Evaluation will examine the usefulness of the resulting checks and the amount of human involvement required.",
+  "theme": "systems",
+  "status": "active",
+  "featured": false,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}

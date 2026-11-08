@@ -1,0 +1,15 @@
+{
+  "id": "denver",
+  "published": true,
+  "slug": "denver",
+  "title": "DENVER",
+  "expansion": "Designing Evidence-informed Narrated Videos to Enhance Reasoning",
+  "summary": "Turning evidence from student–AI interactions into instructor-reviewed worked-example videos for subsequent learners.",
+  "research": "Student–AI conversations can reveal recurring difficulties and valid solution approaches that are not visible in completed assignments alone. DENVER investigates how this evidence can inform short, AI-generated worked-example videos for subsequent course cohorts. The project builds on classroom conversational-learning platforms and existing work on instructional videos.\n\nThe planned process combines human validation of interaction interpretations with checks that historical patterns remain relevant to new learners. Instructional design decisions connect identified difficulties to the reasoning steps and approaches explained in each video. Instructors review the resulting material for correctness, course alignment, and instructional suitability.\n\nThe central research question is whether historical interaction evidence adds value beyond assignment responses, assessment results, and instructor observations. Planned classroom comparisons will examine delayed problem solving without AI assistance, along with the effort required to prepare and review materials. The goal is an evidence-based method for deciding when earlier students’ reasoning can improve later instruction and when those patterns require adaptation.",
+  "theme": "learning",
+  "status": "active",
+  "featured": false,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}

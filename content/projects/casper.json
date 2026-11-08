@@ -1,0 +1,15 @@
+{
+  "id": "casper",
+  "published": true,
+  "slug": "casper",
+  "title": "CASPER",
+  "expansion": "Compositional AI Systems for Pedagogical Emulation and Representation",
+  "summary": "Representing teaching practices from educational data and developing AI tutors with controllable instructional strategies.",
+  "research": "CASPER investigates how teaching practices can be represented, reproduced, and combined in educational AI. The project focuses on instructional behavior, including questioning, scaffolding, explanation, responses to student ideas, and decisions about revealing answers. Its long-term direction is a composite pedagogical digital twin that draws on strategies observed across multiple instructional profiles.\n\nThe work has three connected strands. Representation studies examine whether measurable pedagogical profiles remain informative across lessons and teaching contexts. Emulation studies test whether an AI tutor can reproduce a specified profile under controlled conditions. Composition studies investigate whether selected characteristics from different profiles can form a coherent new instructional strategy.\n\nClassroom observations and tutoring conversations provide complementary evidence, with explicit attention to what each data source can establish. Current work develops and validates these methods before evaluating their effects on student learning. The broader goal is to give educators meaningful control over how an AI tutor teaches, supported by evidence about the reliability and limits of those controls.",
+  "theme": "learning",
+  "status": "active",
+  "featured": false,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}

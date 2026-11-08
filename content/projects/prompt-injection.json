@@ -1,0 +1,15 @@
+{
+  "id": "prompt-injection",
+  "published": true,
+  "slug": "prompt-injection",
+  "title": "Prompt Injection Defense and Agent Security",
+  "expansion": "",
+  "summary": "Detecting malicious instructions, auditing their influence, and verifying that AI agents act within authorized boundaries.",
+  "research": "AI agents increasingly read external content and invoke tools on a user’s behalf. Prompt injection exploits this workflow by placing instructions in material the agent should treat as data. This project brings together complementary research on recognizing these instructions, understanding their effect on decisions, and checking whether resulting actions remain authorized.\n\nOne strand studies typed representations of instruction intent, such as attempts to override a task, reveal information, redirect an action, or exfiltrate data. Another investigates decision influence auditing: whether changing untrusted context changes a consequential agent decision. These approaches address different questions about suspicious text and its actual influence on behavior.\n\nRelated work examines safe action and argument binding, lightweight verification of approval scope for tool calls, and information leakage through denial feedback. This includes the DenialDojo direction, which studies whether explanations of denied actions disclose information or affect later agent behavior. Together, the projects cover the path from incoming instructions to tool execution and subsequent interaction.\n\nEvaluation considers both security and usefulness: missed attacks, false blocking of legitimate work, sensitivity to changed arguments, and the need for clarification or abstention. The goal is to develop defenses whose limits can be measured and whose decisions can be examined by users and system developers.",
+  "theme": "systems",
+  "status": "active",
+  "featured": false,
+  "image": "",
+  "imageAlt": "",
+  "links": []
+}
