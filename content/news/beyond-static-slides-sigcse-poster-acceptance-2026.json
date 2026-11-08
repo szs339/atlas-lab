@@ -5,11 +5,8 @@
   "date": "2026-11-08",
   "body": "“Beyond Static Slides: Automated Video Generation for Education” has been accepted for poster presentation at SIGCSE Virtual, the 2nd ACM Virtual Global Computing Education Conference, in November 2026. The authors are Vai Patankar, Veer Amish Shah, Mahfuza Farooque, and Suman Saha.",
   "featured": false,
-  "projectIds": [],
   "personIds": [
-    "suman-saha"
-  ],
-  "publicationIds": [],
-  "fundingIds": [],
-  "links": []
+    "suman-saha",
+    "mahfuza-farooque"
+  ]
 }
