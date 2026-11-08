@@ -1,0 +1,17 @@
+{
+  "id": "mahfuza-farooque",
+  "published": true,
+  "name": "Mahfuza Farooque",
+  "role": "Teaching Professor; Director of the Master of Engineering Degree Program",
+  "category": "collaborator",
+  "membershipStatus": "current",
+  "bio": "Dr. Farooque works on artificial intelligence, programming languages, and software security, with research on AI-supported learning, computational reasoning, and verification.",
+  "position": "Penn State, Computer Science and Engineering",
+  "links": [
+    {
+      "label": "Penn State profile",
+      "url": "https://www.eecs.psu.edu/departments/directory-detail-g.aspx?q=MFF5187"
+    }
+  ],
+  "memberships": []
+}
