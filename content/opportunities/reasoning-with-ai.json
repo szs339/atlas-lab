@@ -10,5 +10,8 @@
     "honors"
   ],
   "availability": "discuss",
-  "projectIds": []
+  "projectIds": [
+    "sierra",
+    "denver"
+  ]
 }
