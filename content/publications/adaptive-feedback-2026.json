@@ -1,18 +1,16 @@
 {
   "id": "adaptive-feedback-2026",
+  "published": true,
   "title": "WIP: Examining Feedback Generation in Adaptive Conversational Learning Systems",
   "authors": [
     {
-      "name": "Vincent Fakiyesi",
-      "personId": ""
+      "name": "Vincent Fakiyesi"
     },
     {
-      "name": "Srujan R Singareddy",
-      "personId": ""
+      "name": "Srujan R Singareddy"
     },
     {
-      "name": "Mahfuza Farooque",
-      "personId": ""
+      "name": "Mahfuza Farooque"
     },
     {
       "name": "Suman Saha",
@@ -23,11 +21,8 @@
   "venue": "IEEE Frontiers in Education Conference (FIE)",
   "type": "conference",
   "status": "accepted",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
-  "doi": "",
-  "pdf": "",
-  "url": "",
-  "links": []
+  "projectIds": [
+    "alaaska"
+  ],
+  "featured": false
 }
