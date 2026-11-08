@@ -1,10 +1,10 @@
 {
   "id": "snackable-study-2025",
+  "published": true,
   "title": "Snackable Study: Boosting Micro-learning with Bite-Size Videos",
   "authors": [
     {
-      "name": "Sri Krishna Chaitanya Velamakanni",
-      "personId": ""
+      "name": "Sri Krishna Chaitanya Velamakanni"
     },
     {
       "name": "Suman Saha",
@@ -15,11 +15,9 @@
   "venue": "ASEE Annual Conference & Exposition",
   "type": "conference",
   "status": "published",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
+  "projectIds": [
+    "denver"
+  ],
   "doi": "10.18260/1-2--57656",
-  "pdf": "",
-  "url": "",
-  "links": []
+  "featured": false
 }
