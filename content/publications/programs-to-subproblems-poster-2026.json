@@ -4,12 +4,10 @@
   "title": "From Programs to Subproblems: Execution-Grounded Pre-Deployment Validation.",
   "authors": [
     {
-      "name": "Daksh Mainee",
-      "personId": ""
+      "name": "Daksh Mainee"
     },
     {
-      "name": "Sanan Goel",
-      "personId": ""
+      "name": "Sanan Goel"
     },
     {
       "name": "Suman Saha",
@@ -20,10 +18,8 @@
   "venue": "SIGCSE Virtual: 2nd ACM Virtual Global Computing Education Conference, November 2026",
   "type": "poster",
   "status": "accepted",
-  "projectIds": [],
-  "doi": "",
-  "pdf": "",
-  "url": "",
-  "links": [],
+  "projectIds": [
+    "acadia"
+  ],
   "featured": false
 }
