@@ -1,10 +1,10 @@
 {
   "id": "llm-obfuscated-xss-2026",
+  "published": true,
   "title": "Evaluating LLM-Generated Obfuscated XSS Payloads for Machine Learning-Based Detection",
   "authors": [
     {
-      "name": "Divyesh Gabbireddy",
-      "personId": ""
+      "name": "Divyesh Gabbireddy"
     },
     {
       "name": "Suman Saha",
@@ -15,11 +15,10 @@
   "venue": "arXiv:2604.19526",
   "type": "preprint",
   "status": "preprint",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
-  "doi": "",
+  "projectIds": [
+    "obfuscation"
+  ],
   "pdf": "https://arxiv.org/pdf/2604.19526",
   "url": "https://arxiv.org/abs/2604.19526",
-  "links": []
+  "featured": false
 }
