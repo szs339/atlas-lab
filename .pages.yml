@@ -115,18 +115,6 @@ content:
             label: Secondary link
             type: string
             required: true
-          - name: themesEyebrow
-            label: Research directions label
-            type: string
-            required: true
-          - name: themesTitle
-            label: Research directions heading
-            type: string
-            required: true
-          - name: projectsEyebrow
-            label: Featured projects label
-            type: string
-            required: true
           - name: projectsTitle
             label: Featured projects heading
             type: string
@@ -184,25 +172,13 @@ content:
             label: Learning title
             type: string
             required: true
-          - name: learningDescription
-            label: Learning description
-            type: text
-            required: true
           - name: interaction
             label: Interaction title
             type: string
             required: true
-          - name: interactionDescription
-            label: Interaction description
-            type: text
-            required: true
           - name: systems
             label: Systems title
             type: string
-            required: true
-          - name: systemsDescription
-            label: Systems description
-            type: text
             required: true
       - name: filters
         label: Shared search controls

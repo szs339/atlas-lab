@@ -12,16 +12,15 @@ export const textGroups = {
   home:{label:'Home page',fields:{
     title:['Main heading, first line','Advancing trustworthy'], accent:['Main heading, emphasized line','learning and systems.'],
     projectsButton:['Primary button','Explore our research'], thesisLink:['Secondary link','Find a thesis direction'],
-    themesEyebrow:['Research directions label','CONNECTED QUESTIONS'],themesTitle:['Research directions heading','Three research directions'],
-    projectsEyebrow:['Featured projects label','RESEARCH IN PRACTICE'],projectsTitle:['Featured projects heading','Featured projects'],allProjects:['All projects link','All projects'],
+    projectsTitle:['Featured projects heading','Featured projects'],allProjects:['All projects link','All projects'],
     newsTitle:['News heading','Latest news'],allNews:['All news link','All news'],newsEmpty:['No news message','Research updates and lab announcements will appear here.','text'],
     publicationsTitle:['Publications heading','Selected publications'],allPublications:['All publications link','All publications'],publicationsEmpty:['No publications message','The publication listing is being prepared.','text'],
     thesisEyebrow:['Thesis invitation label','RESEARCH WITH ATLAS'],thesisTitle:['Thesis invitation heading','A question worth pursuing.'],thesisIntro:['Thesis invitation text','M.S. and undergraduate honors thesis research for Penn State students.','text'],thesisButton:['Thesis invitation button','Explore thesis opportunities']
   }},
   themes:{label:'Research direction wording',fields:{
-    learning:['Learning title','AI-supported learning and instruction'],learningDescription:['Learning description','Designing and studying AI support for reasoning, feedback, and independent learning.','text'],
-    interaction:['Interaction title','Learning analytics and human–AI interaction'],interactionDescription:['Interaction description','Understanding what educational data can reveal about learning and collaboration with AI.','text'],
-    systems:['Systems title','Trustworthy AI and software systems'],systemsDescription:['Systems description','Examining the evidence, reliability, and security of AI and software.','text']
+    learning:['Learning title','AI-supported learning and instruction'],
+    interaction:['Interaction title','Learning analytics and human–AI interaction'],
+    systems:['Systems title','Trustworthy AI and software systems']
   }},
   filters:{label:'Shared search controls',fields:{search:['Search label','Search'],all:['All option','All'],reset:['Reset button','Reset'],oneResult:['Singular result label','result'],manyResults:['Plural result label','results'],project:['Project filter','Project'],year:['Year filter','Year'],type:['Type filter','Type']}},
   projects:{label:'Projects directory',fields:{title:['Page title','Projects'],eyebrow:['Page label','OUR RESEARCH'],intro:['Introduction','Explore the questions, people, and evidence behind our work.','text'],directoryLabel:['Directory description','Project directory'],search:['Search placeholder','Search projects'],areaFilter:['Area filter','Research area'],statusFilter:['Status filter','Project status'],empty:['No matches message','No projects match your search.'],explore:['Project card link','Explore the project'],active:['Active status','Active'],completed:['Completed status','Completed']}},

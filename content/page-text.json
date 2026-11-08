@@ -25,9 +25,6 @@
     "accent": "learning and systems.",
     "projectsButton": "Explore our research",
     "thesisLink": "Find an M.S. or honors thesis direction",
-    "themesEyebrow": "CONNECTED QUESTIONS",
-    "themesTitle": "Three research directions",
-    "projectsEyebrow": "RESEARCH IN PRACTICE",
     "projectsTitle": "Featured projects",
     "allProjects": "All projects",
     "newsTitle": "Latest news",
@@ -43,11 +40,8 @@
   },
   "themes": {
     "learning": "AI-supported learning and instruction",
-    "learningDescription": "Designing and studying AI support for reasoning, feedback, and independent learning.",
     "interaction": "Learning analytics and human–AI interaction",
-    "interactionDescription": "Understanding what educational data can reveal about learning and collaboration with AI.",
-    "systems": "Trustworthy AI and software systems",
-    "systemsDescription": "Examining the evidence, reliability, and security of AI and software."
+    "systems": "Trustworthy AI and software systems"
   },
   "filters": {
     "search": "Search",
