@@ -6,7 +6,12 @@
   "category": "graduate",
   "membershipStatus": "alumni",
   "involvementPeriod": "Summer 2023",
-  "position": "Unknown",
-  "links": [],
+  "position": "Software Engineer, Lockheed Martin",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/eddie-ubri-jr-223623178/"
+    }
+  ],
   "memberships": []
 }
