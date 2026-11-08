@@ -6,26 +6,16 @@
   "category": "director",
   "membershipStatus": "current",
   "bio": "Dr. Saha studies computing education, AI-supported adaptive learning, pedagogical modeling, trustworthy large language models, and human-centered AI.",
-  "degree": "",
-  "startDate": "",
-  "endDate": "",
   "position": "Penn State, Computer Science and Engineering",
-  "positionVerified": "",
-  "photo": "",
-  "photoAlt": "",
-  "links": [],
+  "photo": "/uploads/55618577284_87823d4fce_w.jpg",
   "memberships": [
     {
       "projectId": "alaaska",
-      "role": "Faculty lead",
-      "startDate": "",
-      "endDate": ""
+      "role": "Faculty lead"
     },
     {
       "projectId": "cisb-bench",
-      "role": "Faculty lead",
-      "startDate": "",
-      "endDate": ""
+      "role": "Faculty lead"
     }
   ]
 }
