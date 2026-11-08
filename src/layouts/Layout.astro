@@ -36,7 +36,7 @@ const canonical = !noindex && Astro.site ? new URL(Astro.url.pathname, Astro.sit
     <footer class="site-footer">
       <div class="container footer-inner">
         <div><strong>{settings.title} {copy.brand.titleConnector} {settings.affiliation}</strong><p>{settings.expansion}</p></div>
-        <div><a href={`mailto:${settings.email}`}>{settings.email}</a><p><a href={copy.brand.institutionUrl}>{copy.brand.institutionLabel}</a> <span aria-hidden="true">·</span> <a href={href('/opportunities/')}>{copy.brand.footerThesisLink}</a></p></div>
+        <div><a href={`mailto:${settings.email}`}>{settings.email}</a><p><a href={copy.brand.institutionUrl}>{copy.brand.institutionLabel}</a></p></div>
       </div>
     </footer>
   </body>
