@@ -5,11 +5,8 @@
   "date": "2026-11-08",
   "body": "Suman Saha and Mahfuza Farooque received a $7,500 seed grant from the Pennsylvania Space Grant Consortium for “Interpretable and Verifiable AI for Structured Decision Making.” Saha served as principal investigator and Farooque as co-principal investigator. The award period was December 2025 through April 2026.",
   "featured": false,
-  "projectIds": [],
   "personIds": [
-    "suman-saha"
-  ],
-  "publicationIds": [],
-  "fundingIds": [],
-  "links": []
+    "suman-saha",
+    "mahfuza-farooque"
+  ]
 }
