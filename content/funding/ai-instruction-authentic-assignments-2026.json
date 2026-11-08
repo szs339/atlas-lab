@@ -3,11 +3,6 @@
   "published": true,
   "title": "Building an AI-Guided Interface for Authentic Take-Home Assignments in Computing Education",
   "sponsor": "AI Center of Excellence for Teaching and Learning, Penn State",
-  "awardId": "",
-  "description": "AI in Instruction Microgrant Program.",
-  "awardPeriod": "July 2026 – June 2027",
-  "startDate": "",
-  "endDate": "",
   "status": "active",
   "amount": 1000,
   "currency": "USD",
@@ -15,6 +10,7 @@
   "investigators": [
     "Suman Saha (Principal Investigator)"
   ],
-  "projectIds": [],
-  "url": ""
+  "projectIds": [
+    "alaaska"
+  ]
 }
