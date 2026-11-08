@@ -32,11 +32,7 @@
     "newsEmpty": "Research updates and lab announcements will appear here.",
     "publicationsTitle": "Selected publications",
     "allPublications": "All publications",
-    "publicationsEmpty": "The publication listing is being prepared.",
-    "thesisEyebrow": "RESEARCH WITH ATLAS",
-    "thesisTitle": "A question worth pursuing.",
-    "thesisIntro": "M.S. and undergraduate honors thesis research for Penn State students.",
-    "thesisButton": "Explore thesis opportunities"
+    "publicationsEmpty": "The publication listing is being prepared."
   },
   "themes": {
     "learning": "AI-supported learning and instruction",

@@ -15,7 +15,6 @@ export const textGroups = {
     projectsTitle:['Featured projects heading','Featured projects'],allProjects:['All projects link','All projects'],
     newsTitle:['News heading','Latest news'],allNews:['All news link','All news'],newsEmpty:['No news message','Research updates and lab announcements will appear here.','text'],
     publicationsTitle:['Publications heading','Selected publications'],allPublications:['All publications link','All publications'],publicationsEmpty:['No publications message','The publication listing is being prepared.','text'],
-    thesisEyebrow:['Thesis invitation label','RESEARCH WITH ATLAS'],thesisTitle:['Thesis invitation heading','A question worth pursuing.'],thesisIntro:['Thesis invitation text','M.S. and undergraduate honors thesis research for Penn State students.','text'],thesisButton:['Thesis invitation button','Explore thesis opportunities']
   }},
   themes:{label:'Research direction wording',fields:{
     learning:['Learning title','AI-supported learning and instruction'],

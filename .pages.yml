@@ -147,22 +147,6 @@ content:
             label: No publications message
             type: text
             required: true
-          - name: thesisEyebrow
-            label: Thesis invitation label
-            type: string
-            required: true
-          - name: thesisTitle
-            label: Thesis invitation heading
-            type: string
-            required: true
-          - name: thesisIntro
-            label: Thesis invitation text
-            type: text
-            required: true
-          - name: thesisButton
-            label: Thesis invitation button
-            type: string
-            required: true
       - name: themes
         label: Research direction wording
         type: object
