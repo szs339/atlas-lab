@@ -1,14 +1,13 @@
 {
   "id": "llm-xss-detection-2025",
+  "published": true,
   "title": "Leveraging LLM to Strengthen ML-Based Cross-Site Scripting Detection",
   "authors": [
     {
-      "name": "Dennis Miczek",
-      "personId": ""
+      "name": "Dennis Miczek"
     },
     {
-      "name": "Divyesh Gabbireddy",
-      "personId": ""
+      "name": "Divyesh Gabbireddy"
     },
     {
       "name": "Suman Saha",
@@ -19,16 +18,16 @@
   "venue": "ACM Workshop on Wireless Security and Machine Learning (WiseML), pp. 14–19",
   "type": "workshop",
   "status": "published",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
+  "projectIds": [
+    "obfuscation"
+  ],
   "doi": "10.1145/3733965.3733969",
   "pdf": "https://arxiv.org/pdf/2504.21045",
-  "url": "",
   "links": [
     {
       "label": "Preprint",
       "url": "https://arxiv.org/abs/2504.21045"
     }
-  ]
+  ],
+  "featured": false
 }
