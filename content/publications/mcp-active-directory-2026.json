@@ -1,14 +1,13 @@
 {
   "id": "mcp-active-directory-2026",
+  "published": true,
   "title": "MCP-Based LLM Agents for Autonomous Active Directory Penetration Testing",
   "authors": [
     {
-      "name": "Ronny Bazan-Antequera",
-      "personId": ""
+      "name": "Ronny Bazan-Antequera"
     },
     {
-      "name": "Pattarapong Ramungthong",
-      "personId": ""
+      "name": "Pattarapong Ramungthong"
     },
     {
       "name": "Suman Saha",
@@ -19,11 +18,5 @@
   "venue": "IEEE International Conference on Intelligent Systems and Interdisciplinary Applications (ISAIA)",
   "type": "conference",
   "status": "accepted",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
-  "doi": "",
-  "pdf": "",
-  "url": "",
-  "links": []
+  "featured": true
 }
