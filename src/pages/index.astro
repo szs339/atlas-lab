@@ -7,7 +7,7 @@ import { data, settings, href, copy } from '../lib/site.mjs';
 
 const projects = data.projects.filter(p => p.featured).slice(0, settings.featuredProjectLimit);
 const papers = data.publications.filter(p => p.featured).slice(0, settings.selectedPublicationLimit);
-const news = data.news.slice(0, settings.recentNewsLimit);
+const news = data.news.filter(item => item.featured).slice(0, settings.recentNewsLimit);
 ---
 <Layout>
   <section class="hero">

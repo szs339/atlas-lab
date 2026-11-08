@@ -19,6 +19,12 @@ test('populated site builds at root and a repository subpath, without draft rout
     d.pageText.navigation.projects='Research projects';
     d.pageText.themes.learning='Edited learning area';
     d.pageText.filters.manyResults='matches';
+    d.settings.recentNewsLimit=1;
+    d.news.push(
+      {...d.news[0],id:'featured-news',title:'Featured news sentinel',date:'2026-09-01',featured:true},
+      {...d.news[0],id:'older-featured-news',title:'Older featured news sentinel',date:'2026-08-01',featured:true},
+      {...d.news[0],id:'draft-news',title:'Draft news sentinel',date:'2026-11-01',featured:true,published:false}
+    );
     fs.writeFileSync(path.join(tmp,'content/page-text.json'),JSON.stringify(d.pageText));
     fs.writeFileSync(path.join(tmp,'content/site.json'),JSON.stringify(d.settings));
     for(const name of collectionNames) {
@@ -38,6 +44,10 @@ test('populated site builds at root and a repository subpath, without draft rout
       assert.ok(read('projects').includes('data-theme="learning"'));
       assert.ok(read('projects').includes('data-result-many="matches"'));
       assert.ok(home.includes('Research projects</a>'));
+      assert.ok(home.includes('Featured news sentinel'));
+      assert.ok(!home.includes('Older featured news sentinel'));
+      assert.ok(!home.includes('Test announcement'));
+      for(const phrase of ['Featured news sentinel','Older featured news sentinel','Test announcement']) assert.ok(read('news').includes(phrase),phrase);
       for(const phrase of ['Shared test publication','Test announcement','Test research support','Test Graduate']) assert.ok(project.includes(phrase),phrase);
       assert.ok(read('projects/cisb-bench').includes('Test dataset'));
       assert.ok(read('people').includes('Example University, graduate student'));
@@ -45,7 +55,7 @@ test('populated site builds at root and a repository subpath, without draft rout
       assert.ok(!read('opportunities').includes('Closed idea sentinel'));
       for(const file of fs.readdirSync(path.join(tmp,'dist'),{recursive:true}).filter(f=>f.endsWith('.html'))) {
         const html=fs.readFileSync(path.join(tmp,'dist',file),'utf8');
-        assert.ok(!html.includes('Draft paper sentinel')&&!html.includes('Draft project sentinel'),file);
+        assert.ok(!html.includes('Draft paper sentinel')&&!html.includes('Draft project sentinel')&&!html.includes('Draft news sentinel'),file);
       }
     }
   } finally { fs.rmSync(tmp,{recursive:true,force:true}); }

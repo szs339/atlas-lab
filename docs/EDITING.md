@@ -47,7 +47,7 @@ The DOI field expects an identifier such as `10.1234/example`, not a DOI URL. A 
 
 Enter a headline, date, and announcement. Choose related projects and optionally people, papers, or grants. Project associations control placement on project pages. People and paper references create inline links; funding references are retained as structured associations. Use an external link for an award announcement when appropriate.
 
-The News page shows complete short announcements. Longer announcements expand inline. There is no separate news-item route. The homepage shows the latest dated news, up to its configured limit; the news `featured` flag is reserved for a later curated layout and currently does not change order.
+The News page shows all published announcements. Short announcements appear in full; longer announcements expand inline. There is no separate news-item route. Enable **Feature on homepage** for news you want on the homepage. Featured items appear newest first, up to the Homepage news items limit in Lab settings. Items with this setting off remain available on the News page and any linked project pages.
 
 ## Record funding and resources
 

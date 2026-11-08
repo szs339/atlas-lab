@@ -1218,7 +1218,7 @@ content:
         type: text
         required: true
       - name: featured
-        label: Featured
+        label: Feature on homepage
         type: boolean
         default: false
       - name: projectIds

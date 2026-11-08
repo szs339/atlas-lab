@@ -37,7 +37,7 @@ const fields = {
     f('pdf', 'Uploaded PDF', 'file'), f('url', 'Publication URL'), links(), f('featured', 'Feature on homepage', 'boolean', {default: false})
   ],
   news: [...shared(), required('title','Headline'), required('date','Date (YYYY-MM-DD)'), required('body','Announcement','text'),
-    f('featured','Featured','boolean',{default:false}), projectRefs(), ref('personIds','Related people','people'),
+    f('featured','Feature on homepage','boolean',{default:false}), projectRefs(), ref('personIds','Related people','people'),
     ref('publicationIds','Related publications','publications'), ref('fundingIds','Related funding','funding'), links()
   ],
   funding: [...shared(), required('title','Award title'), required('sponsor','Sponsor'), f('awardId','Award number'),
