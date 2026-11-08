@@ -15,6 +15,9 @@
   "venue": "IEEE Frontiers in Education Conference (FIE), pp. 1–9",
   "type": "conference",
   "status": "published",
+  "projectIds": [
+    "denver"
+  ],
   "doi": "10.1109/fie63693.2025.11328389",
   "featured": true
 }
