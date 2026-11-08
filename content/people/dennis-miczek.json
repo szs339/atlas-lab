@@ -1,0 +1,20 @@
+{
+  "id": "dennis-miczek",
+  "published": true,
+  "name": "Dennis Miczek",
+  "role": "Former Undergraduate Researcher",
+  "category": "undergraduate",
+  "membershipStatus": "alumni",
+  "position": "Software Engineer, Palantir",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dennis-miczek/"
+    },
+    {
+      "label": "Website",
+      "url": "https://dmicz.dev/about/"
+    }
+  ],
+  "memberships": []
+}
