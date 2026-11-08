@@ -930,8 +930,9 @@ content:
         label: Photograph
         type: image
       - name: photoAlt
-        label: Photograph description
+        label: Photograph description (required with a photo)
         type: string
+        description: "Add a short description whenever you select a photograph, for example: Portrait of Suman Saha. This is used by screen readers; leaving it blank prevents the site from publishing."
       - name: links
         label: External links
         type: object
