@@ -1,5 +1,6 @@
 {
   "id": "example-based-short-videos-2025",
+  "published": true,
   "title": "Enhancing Student Engagement Through Example-Based Short Videos",
   "authors": [
     {
@@ -7,19 +8,13 @@
       "personId": "suman-saha"
     },
     {
-      "name": "Mahfuza Farooque",
-      "personId": ""
+      "name": "Mahfuza Farooque"
     }
   ],
   "year": 2025,
   "venue": "IEEE Frontiers in Education Conference (FIE), pp. 1–9",
   "type": "conference",
   "status": "published",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
   "doi": "10.1109/fie63693.2025.11328389",
-  "pdf": "",
-  "url": "",
-  "links": []
+  "featured": true
 }
