@@ -24,6 +24,9 @@
   "venue": "ASEE Annual Conference & Exposition",
   "type": "conference",
   "status": "published",
+  "projectIds": [
+    "alaaska"
+  ],
   "doi": "10.18260/1-2--58677",
   "url": "https://peer.asee.org/58677",
   "featured": true
