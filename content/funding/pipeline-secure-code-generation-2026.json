@@ -3,18 +3,12 @@
   "published": true,
   "title": "LLM-Assisted Secure Code Generation with Automated Feedback",
   "sponsor": "Penn State Intern PipelinE LInks to Navy Engineering (PIPELINE)",
-  "awardId": "",
-  "description": "Competitively selected project support for an 11-week undergraduate research internship through PIPELINE, an Office of Naval Research-supported Penn State program.",
-  "awardPeriod": "Summer 2026",
-  "startDate": "",
-  "endDate": "",
   "status": "completed",
-  "amount": null,
   "currency": "USD",
-  "amountLabel": "",
   "investigators": [
     "Suman Saha (Faculty Project Lead)"
   ],
-  "projectIds": [],
-  "url": ""
+  "projectIds": [
+    "toledo"
+  ]
 }
