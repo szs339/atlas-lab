@@ -1,0 +1,20 @@
+{
+  "id": "erickson-cs-unet-2024",
+  "published": true,
+  "title": "CS-UNet: A Cross-Scale, DPLR-like 3D Segmentation Model for Multimodal Medical Images",
+  "sponsor": "Penn State",
+  "awardId": "",
+  "description": "Erickson Discovery Grant secured by Jonathan Cui.",
+  "awardPeriod": "June 2024 – August 2024",
+  "startDate": "",
+  "endDate": "",
+  "status": "completed",
+  "amount": 3500,
+  "currency": "USD",
+  "amountLabel": "Student award amount",
+  "investigators": [
+    "Jonathan Cui (Student award recipient)"
+  ],
+  "projectIds": [],
+  "url": ""
+}

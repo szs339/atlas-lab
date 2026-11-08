@@ -1,0 +1,22 @@
+{
+  "id": "pipeline-deobfuscation-2025",
+  "published": true,
+  "title": "De-Obfuscation Mastery with LLMs",
+  "sponsor": "Penn State Intern PipelinE LInks to Navy Engineering (PIPELINE)",
+  "awardId": "",
+  "description": "Competitively selected project support for undergraduate research through PIPELINE, an Office of Naval Research-supported Penn State program.",
+  "awardPeriod": "Summer 2025 and the 2025–2026 academic year",
+  "startDate": "",
+  "endDate": "",
+  "status": "completed",
+  "amount": null,
+  "currency": "USD",
+  "amountLabel": "",
+  "investigators": [
+    "Suman Saha (Faculty Project Lead)"
+  ],
+  "projectIds": [
+    "obfuscation"
+  ],
+  "url": ""
+}

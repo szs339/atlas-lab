@@ -42,6 +42,8 @@ const fields = {
     ref('publicationIds','Related publications','publications'), ref('fundingIds','Related funding','funding'), links()
   ],
   funding: [...shared(), required('title','Award title'), required('sponsor','Sponsor'), f('awardId','Award number'),
+    f('description','Program and support details','text'),
+    f('awardPeriod','Award period (months, semesters, or years)','string',{description:'Use the period stated in the award, such as September 2026 – August 2028 or Spring 2027. When filled, this replaces the displayed start/end dates. Do not invent exact dates.'}),
     date('startDate','Starts'), date('endDate','Ends'), select('status','Award status',['active','completed']),
     f('amount','Amount (optional)','number'), select('currency','Currency',['USD','EUR','GBP'],{default:'USD'}),
     f('amountLabel','Amount meaning','string',{description:'Required with an amount, e.g. Total award or Penn State allocation.'}),

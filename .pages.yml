@@ -1317,6 +1317,13 @@ content:
       - name: awardId
         label: Award number
         type: string
+      - name: description
+        label: Program and support details
+        type: text
+      - name: awardPeriod
+        label: Award period (months, semesters, or years)
+        type: string
+        description: Use the period stated in the award, such as September 2026 – August 2028 or Spring 2027. When filled, this replaces the displayed start/end dates. Do not invent exact dates.
       - name: startDate
         label: Starts
         type: string

@@ -53,6 +53,8 @@ The News page shows all published announcements. Short announcements appear in f
 
 Funding entries contain sponsor, award title/number, investigators, dates, and relevant projects. An amount is optional. When entered, explain whether it is the total award, Penn State allocation, or another figure. Use actual awarded funding; proposal plans are not awards.
 
+Use **Award period (months, semesters, or years)** when the source gives a period such as September 2026 – August 2028 or Spring 2027. This text takes precedence over the displayed start/end dates, so exact days need not be invented. **Program and support details** can identify the grant program, describe stipend or tuition support, or distinguish student awards and sponsored research support from PI/Co-PI grants. Leave undisclosed amounts blank, and link an award only to projects it supports.
+
 Resources contain a title, type, link, description, and relevant projects. They may point to code, a dataset, documentation, demo, or an uploaded file. Funding and resources are shown only within linked project pages.
 
 ## Add a thesis idea

@@ -52,6 +52,7 @@ export const schemas = {
     projectIds: ids, personIds: ids, publicationIds: ids, fundingIds: ids, links: array(link)
   }),
   funding: z.strictObject({ ...common, title: text, sponsor: text, awardId: optionalText,
+    description: optionalText, awardPeriod: optionalText,
     startDate: optionalDate, endDate: optionalDate, status: z.enum(['active', 'completed']),
     amount: z.number().finite().nonnegative().nullish(), currency: z.enum(['USD', 'EUR', 'GBP']).default('USD'),
     amountLabel: optionalText, investigators: array(text), projectIds: ids, url: optionalUrl
