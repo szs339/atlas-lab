@@ -3,11 +3,6 @@
   "published": true,
   "title": "Enhancing Student Engagement in a Large-Scale Computer Science Course through Interactive Bite-Size Video Learning Resources",
   "sponsor": "Office of the President, Penn State",
-  "awardId": "",
-  "description": "Professional Development Grant.",
-  "awardPeriod": "January 2025 – May 2025",
-  "startDate": "",
-  "endDate": "",
   "status": "completed",
   "amount": 9820,
   "currency": "USD",
@@ -16,6 +11,7 @@
     "Mahfuza Farooque (Principal Investigator)",
     "Suman Saha (Co-Principal Investigator)"
   ],
-  "projectIds": [],
-  "url": ""
+  "projectIds": [
+    "denver"
+  ]
 }
