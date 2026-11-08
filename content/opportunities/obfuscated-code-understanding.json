@@ -10,5 +10,7 @@
     "honors"
   ],
   "availability": "discuss",
-  "projectIds": []
+  "projectIds": [
+    "obfuscation"
+  ]
 }
