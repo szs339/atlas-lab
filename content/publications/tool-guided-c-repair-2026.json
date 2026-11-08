@@ -1,14 +1,13 @@
 {
   "id": "tool-guided-c-repair-2026",
+  "published": true,
   "title": "Tool-Guided Retrieval-Augmented Repair for Securing LLM-Generated C Code",
   "authors": [
     {
-      "name": "Vidyut Sriram",
-      "personId": ""
+      "name": "Vidyut Sriram"
     },
     {
-      "name": "Saatvik Pradhan",
-      "personId": ""
+      "name": "Saatvik Pradhan"
     },
     {
       "name": "Suman Saha",
@@ -19,11 +18,10 @@
   "venue": "arXiv:2607.21641",
   "type": "preprint",
   "status": "preprint",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
-  "doi": "",
+  "projectIds": [
+    "toledo"
+  ],
   "pdf": "https://arxiv.org/pdf/2607.21641",
   "url": "https://arxiv.org/abs/2607.21641",
-  "links": []
+  "featured": false
 }
