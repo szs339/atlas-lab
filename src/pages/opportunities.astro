@@ -9,11 +9,11 @@ const relatedProjects=data.projects.filter(p=>items.some(item=>item.projectIds.i
 const filterFields=[{key:'level',label:copy.opportunities.pathwayFilter,options:[{value:'ms',label:copy.opportunities.msTitle},{value:'honors',label:copy.opportunities.honorsTitle}]}];
 if(relatedProjects.length) filterFields.push({key:'project',label:copy.filters.project,options:relatedProjects.map(p=>({value:p.id,label:p.title}))});
 ---
-<Layout title={copy.opportunities.metaTitle}><div class="container page-content"><PageHead label={copy.opportunities.eyebrow} title={copy.opportunities.title} intro={settings.opportunityIntro} />
+<Layout title={copy.opportunities.metaTitle}><div class="container page-content"><PageHead label="" title={copy.opportunities.title} />
   <div class="pathways"><article><p class="eyebrow">{copy.opportunities.graduateLabel}</p><h2>{copy.opportunities.msTitle}</h2><p>{copy.opportunities.msDescription}</p></article><article><p class="eyebrow">{copy.opportunities.undergraduateLabel}</p><h2>{copy.opportunities.honorsTitle}</h2><p>{copy.opportunities.honorsDescription}</p></article></div>
   <section class="section" data-filter-scope aria-label={copy.opportunities.directoryLabel}><h2>{copy.opportunities.ideasTitle}</h2><p>{copy.opportunities.ideasIntro}</p>
     {items.length > 0 && <FilterBar id="opportunities" placeholder={copy.opportunities.search} fields={filterFields} />}
-    {items.map(item=><Opportunity item={item} />)}<p class="empty" data-filter-empty hidden={items.length>0}>{copy.opportunities.empty}</p>
+    {items.map(item=><Opportunity item={item} showDiscussion={false} />)}<p class="empty" data-filter-empty hidden={items.length>0}>{copy.opportunities.empty}</p>
   </section>
   <section class="contact-panel" id="contact"><p class="eyebrow">{copy.opportunities.contactEyebrow}</p><h2>{copy.opportunities.contactTitle}</h2><p>{settings.inquiryInstructions}</p><a class="button" href={inquiryUrl(copy.opportunities.emailSubject)}>{copy.opportunities.emailButton} →</a></section>
 </div></Layout>

@@ -1,11 +1,12 @@
 ---
 import { data, href, inquiryUrl, copy } from '../lib/site.mjs';
 import { projectLinks } from '../lib/content.mjs';
-const { item } = Astro.props;
+const { item, showDiscussion = true } = Astro.props;
+const projects = projectLinks(data, item.projectIds);
 ---
 <article class="opportunity record" id={`opportunity-${item.id}`} data-filter-item data-level={item.levels.join('|')} data-project={item.projectIds.join('|')} data-search={`${item.title} ${item.question} ${item.contribution} ${item.background}`}>
-  <div class="card-top"><p class="record-meta">{item.levels.map(l => l === 'ms' ? copy.opportunities.msTitle : copy.opportunities.honorsTitle).join(' · ')}</p><span class="status">{copy.opportunities[item.availability]}</span></div>
+  <div class="card-top"><p class="record-meta">{item.levels.map(l => l === 'ms' ? copy.opportunities.msTitle : copy.opportunities.honorsTitle).join(' · ')}</p>{(showDiscussion || item.availability !== 'discuss') && <span class="status">{copy.opportunities[item.availability]}</span>}</div>
   <h3>{item.title}</h3><p class="question">{item.question}</p><p>{item.contribution}</p>
   {item.background && <p><strong>{copy.opportunities.background}:</strong> {item.background}</p>}
-  <div class="record-links">{projectLinks(data, item.projectIds).map(p => <a href={href(`/projects/${p.slug}/`)}>{p.title}</a>)}<a href={inquiryUrl(`${copy.opportunities.ideaSubjectPrefix}: ${item.title}`)}>{copy.opportunities.discussButton} →</a></div>
+  {(projects.length > 0 || showDiscussion) && <div class="record-links">{projects.map(p => <a href={href(`/projects/${p.slug}/`)}>{p.title}</a>)}{showDiscussion && <a href={inquiryUrl(`${copy.opportunities.ideaSubjectPrefix}: ${item.title}`)}>{copy.opportunities.discussButton} →</a>}</div>}
 </article>

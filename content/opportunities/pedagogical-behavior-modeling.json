@@ -1,10 +1,10 @@
 {
   "id": "pedagogical-behavior-modeling",
   "published": true,
-  "title": "Understanding Teaching Practices Through Educational Data",
-  "question": "How can we represent the ways instructors question, explain, and respond to learners in forms that AI systems can use?",
-  "contribution": "Designing educational AI requires a grounded understanding of instructional practice. This direction studies how classroom observations and tutoring conversations can reveal patterns in questioning, explanation, feedback, and support for student reasoning. A thesis could develop interpretable computational profiles, validate them against human judgments, or examine how they vary across lessons and contexts. The goal is to establish reliable descriptions of teaching behavior that can inform the design and evaluation of AI tutors.",
-  "background": "Python or R, statistical analysis, natural language processing, or an interest in learning sciences.",
+  "title": "Understanding and Modeling Teaching Strategies for Educational AI",
+  "question": "How can we represent teaching strategies from educational data and enable AI tutors to apply and combine them reliably?",
+  "contribution": "As AI becomes a common source of learning support, the quality of its questions, explanations, and feedback becomes increasingly important. This direction connects the analysis of classroom observations and tutoring conversations with the design of AI tutors whose instructional behavior educators can inspect and guide. A thesis or project could identify and validate patterns in teaching practice, develop methods for applying or combining those strategies, or evaluate their consistency across problems and extended conversations. The work would use human judgments and computational evidence to assess instructional behavior, correctness, and relevance.",
+  "background": "Python or R, data analysis, machine learning, natural language processing, or an interest in learning sciences.",
   "levels": [
     "ms",
     "honors"
