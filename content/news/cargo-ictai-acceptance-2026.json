@@ -4,12 +4,8 @@
   "title": "CARGO accepted at IEEE ICTAI 2026",
   "date": "2026-11-08",
   "body": "“Continuous Retrieval-Grounded Reward Design for Secure Code Generation on Small Language Models (CARGO)” has been accepted at the 38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI), taking place in Boca Raton, Florida, in November 2026. The paper is authored by Suryansh Singh Sijwali, Medhansh Kumar Singla, and Suman Saha.",
-  "featured": false,
-  "projectIds": [],
+  "featured": true,
   "personIds": [
     "suman-saha"
-  ],
-  "publicationIds": [],
-  "fundingIds": [],
-  "links": []
+  ]
 }
