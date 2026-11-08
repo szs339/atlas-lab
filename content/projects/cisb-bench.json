@@ -8,8 +8,5 @@
   "research": "Compiler optimizations transform programs in ways that can be difficult to inspect from source code alone. CISB-Bench supports research on compiler-introduced security bugs by connecting small C programs with compiler provenance, intermediate-representation artifacts, and documented evidence for security labels.\n\nThe dataset brings together cases mined from GCC and LLVM and retains both security-positive cases and challenging non-CISB examples. Its construction combines repository mining, candidate filtering, independent review, adjudication, and annotations describing the relevant mechanisms and boundaries. These records allow researchers to inspect why a case received a label and what evidence supports that decision.\n\nOur research uses this foundation to evaluate compiler-security detection and analysis methods, including approaches that combine language models with program-analysis evidence. We examine reproducibility, label validity, and the trade-offs between finding relevant bugs and producing unsupported security claims. The aim is a reusable basis for comparing methods and improving the reliability of compiler-security research.",
   "theme": "systems",
   "status": "active",
-  "featured": true,
-  "image": "",
-  "imageAlt": "",
-  "links": []
+  "featured": false
 }
