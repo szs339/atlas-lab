@@ -1,0 +1,38 @@
+{
+  "id": "nl-fol-planetary-benchmark-2026",
+  "title": "A Pilot Benchmark for NL-to-FOL Translation in Planetary Exploration",
+  "authors": [
+    {
+      "name": "Hayden Moore",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Mahfuza Farooque",
+      "personId": ""
+    }
+  ],
+  "year": 2026,
+  "venue": "1st Workshop on Perceptual Challenges for Planetary Exploration, IEEE International Conference on Robotics and Automation (ICRA)",
+  "type": "workshop",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2605.17911",
+  "url": "",
+  "links": [
+    {
+      "label": "Preprint",
+      "url": "https://arxiv.org/abs/2605.17911"
+    },
+    {
+      "label": "Dataset",
+      "url": "https://github.com/HaydenMM/planetary-logic-benchmark/blob/main/pilot_benchmark.json"
+    }
+  ]
+}

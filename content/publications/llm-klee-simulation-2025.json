@@ -1,0 +1,37 @@
+{
+  "id": "llm-klee-simulation-2025",
+  "title": "Can Large Language Models Simulate Symbolic Execution Output Like KLEE?",
+  "authors": [
+    {
+      "name": "Rong Feng",
+      "personId": ""
+    },
+    {
+      "name": "Vanisha Gupta",
+      "personId": ""
+    },
+    {
+      "name": "Vivek Patel",
+      "personId": ""
+    },
+    {
+      "name": "Viroopaksh Reddy Ernampati",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2025,
+  "venue": "arXiv:2511.08530",
+  "type": "preprint",
+  "status": "preprint",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2511.08530",
+  "url": "https://arxiv.org/abs/2511.08530",
+  "links": []
+}

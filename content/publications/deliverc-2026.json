@@ -1,0 +1,37 @@
+{
+  "id": "deliverc-2026",
+  "title": "DeliverC: Teaching Pointers through GenAI-Powered Game-Based Learning",
+  "authors": [
+    {
+      "name": "Wyatt Petula",
+      "personId": ""
+    },
+    {
+      "name": "Anushcka Joshi",
+      "personId": ""
+    },
+    {
+      "name": "Peggy Tu",
+      "personId": ""
+    },
+    {
+      "name": "Amrutha Somasundar",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "57th ACM Technical Symposium on Computer Science Education (SIGCSE), pp. 838–844",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1145/3770762.3772509",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "partial-credit-rl-2026",
+  "title": "Scheduled Partial-Credit RL for Reliable Code Generation with Small Language Models (WIP)",
+  "authors": [
+    {
+      "name": "Suryansh Singh Sijwali",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES), pp. 124–128",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1145/3814943.3816167",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "gait-abnormality-cnn-lstm-2025",
+  "title": "Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Models",
+  "authors": [
+    {
+      "name": "Parth Agarwal",
+      "personId": ""
+    },
+    {
+      "name": "Sangaa Chatterjee",
+      "personId": ""
+    },
+    {
+      "name": "Md Faisal Kabir",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2025,
+  "venue": "24th International Conference on Machine Learning and Applications (ICMLA), pp. 754–759",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1109/icmla66185.2025.00109",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

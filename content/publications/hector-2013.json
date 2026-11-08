@@ -1,0 +1,37 @@
+{
+  "id": "hector-2013",
+  "title": "Hector: Detecting Resource-Release Omission Faults in Error-Handling Code for Systems Software",
+  "authors": [
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Jean-Pierre Lozi",
+      "personId": ""
+    },
+    {
+      "name": "Gaël Thomas",
+      "personId": ""
+    },
+    {
+      "name": "Julia Lawall",
+      "personId": ""
+    },
+    {
+      "name": "Gilles Muller",
+      "personId": ""
+    }
+  ],
+  "year": 2013,
+  "venue": "43rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), pp. 1–12",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1109/dsn.2013.6575307",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

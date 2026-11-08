@@ -1,0 +1,34 @@
+{
+  "id": "boolean-satisfiability-gnn-2023",
+  "title": "Predicting Boolean Satisfiability Using a Graph Neural Network",
+  "authors": [
+    {
+      "name": "Mahfuza Farooque",
+      "personId": ""
+    },
+    {
+      "name": "Arya Keni",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2023,
+  "venue": "International Conference on Life Sciences, Engineering and Technology (ILSET), pp. 67–80",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "",
+  "url": "",
+  "links": [
+    {
+      "label": "Proceedings (PDF)",
+      "url": "https://istes.org/seeder/books/files/4a9002cabd20c85b5e87a013a0215476.pdf"
+    }
+  ]
+}

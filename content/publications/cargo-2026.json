@@ -1,0 +1,29 @@
+{
+  "id": "cargo-2026",
+  "title": "Continuous Retrieval-Grounded Reward Design for Secure Code Generation on Small Language Models (CARGO)",
+  "authors": [
+    {
+      "name": "Suryansh Singh Sijwali",
+      "personId": ""
+    },
+    {
+      "name": "Medhansh Kumar Singla",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)",
+  "type": "conference",
+  "status": "accepted",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "",
+  "url": "https://suryanshss1011.github.io/blog/cargo/",
+  "links": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "faults-linux-26-2014",
+  "title": "Faults in Linux 2.6",
+  "authors": [
+    {
+      "name": "Nicolas Palix",
+      "personId": ""
+    },
+    {
+      "name": "Gaël Thomas",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Christophe Calvès",
+      "personId": ""
+    },
+    {
+      "name": "Gilles Muller",
+      "personId": ""
+    },
+    {
+      "name": "Julia Lawall",
+      "personId": ""
+    }
+  ],
+  "year": 2014,
+  "venue": "ACM Transactions on Computer Systems, 32(2), Article 4",
+  "type": "journal",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1145/2619090",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

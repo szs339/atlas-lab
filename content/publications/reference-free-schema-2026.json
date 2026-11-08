@@ -1,0 +1,38 @@
+{
+  "id": "reference-free-schema-2026",
+  "title": "Reference-Free Schema Generation for Literature Review Tables via Multi-Faceted Rewards",
+  "authors": [
+    {
+      "name": "Sinjoy Saha",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Mahfuza Farooque",
+      "personId": ""
+    },
+    {
+      "name": "Wenpeng Yin",
+      "personId": ""
+    }
+  ],
+  "year": 2026,
+  "venue": "ACL Student Research Workshop, pp. 1253–1261",
+  "type": "workshop",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.18653/v1/2026.acl-srw.111",
+  "pdf": "https://aclanthology.org/2026.acl-srw.111.pdf",
+  "url": "https://aclanthology.org/2026.acl-srw.111/",
+  "links": [
+    {
+      "label": "Code",
+      "url": "https://github.com/sinjoysaha/rl-schema-generation"
+    }
+  ]
+}

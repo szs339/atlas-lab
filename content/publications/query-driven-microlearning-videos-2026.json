@@ -1,0 +1,34 @@
+{
+  "id": "query-driven-microlearning-videos-2026",
+  "title": "Query-Driven AI-Generated Microlearning Videos in STEM Courses",
+  "authors": [
+    {
+      "name": "Saiyada Uroosha Shahnawaz",
+      "personId": ""
+    },
+    {
+      "name": "Mahfuza Farooque",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "IEEE International Conference on Emerging Technologies for STEM Education (ISEC)",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "",
+  "url": "",
+  "links": [
+    {
+      "label": "Conference program",
+      "url": "https://ewh.ieee.org/conf/stem/detailed_program.html"
+    }
+  ]
+}

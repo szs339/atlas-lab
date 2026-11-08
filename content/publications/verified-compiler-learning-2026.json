@@ -1,0 +1,29 @@
+{
+  "id": "verified-compiler-learning-2026",
+  "title": "Verified Learning for Compiler Optimization: An LLM-Guided Architecture with Formal Control",
+  "authors": [
+    {
+      "name": "Dev Pratap Singh",
+      "personId": ""
+    },
+    {
+      "name": "Rong Feng",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "arXiv:2609.27214",
+  "type": "preprint",
+  "status": "preprint",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2609.27214",
+  "url": "https://arxiv.org/abs/2609.27214",
+  "links": []
+}

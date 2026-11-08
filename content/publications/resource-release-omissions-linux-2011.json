@@ -1,0 +1,29 @@
+{
+  "id": "resource-release-omissions-linux-2011",
+  "title": "Finding Resource-Release Omission Faults in Linux",
+  "authors": [
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Julia Lawall",
+      "personId": ""
+    },
+    {
+      "name": "Gilles Muller",
+      "personId": ""
+    }
+  ],
+  "year": 2011,
+  "venue": "ACM SIGOPS Operating Systems Review, 45(3), pp. 5–9",
+  "type": "journal",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1145/2094091.2094094",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

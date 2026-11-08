@@ -1,0 +1,33 @@
+{
+  "id": "atomic-sentence-extraction-2026",
+  "title": "Rule-Based Approaches to Atomic Sentence Extraction",
+  "authors": [
+    {
+      "name": "Lineesha Kamana",
+      "personId": ""
+    },
+    {
+      "name": "Akshita Ananda Subramanian",
+      "personId": ""
+    },
+    {
+      "name": "Mehuli Ghosh",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "arXiv:2601.00506",
+  "type": "preprint",
+  "status": "preprint",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2601.00506",
+  "url": "https://arxiv.org/abs/2601.00506",
+  "links": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "faults-linux-ten-years-2011",
+  "title": "Faults in Linux: Ten Years Later",
+  "authors": [
+    {
+      "name": "Nicolas Palix",
+      "personId": ""
+    },
+    {
+      "name": "Gaël Thomas",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Christophe Calvès",
+      "personId": ""
+    },
+    {
+      "name": "Julia Lawall",
+      "personId": ""
+    },
+    {
+      "name": "Gilles Muller",
+      "personId": ""
+    }
+  ],
+  "year": 2011,
+  "venue": "16th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), pp. 305–318",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1145/1950365.1950401",
+  "pdf": "",
+  "url": "",
+  "links": [
+    {
+      "label": "Research materials",
+      "url": "https://faultlinux.inria.fr/"
+    }
+  ]
+}

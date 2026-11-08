@@ -1,0 +1,30 @@
+{
+  "id": "stock-trend-prediction-2024",
+  "title": "Stock Price Trend Prediction Using Machine Learning and Sentiment Analysis",
+  "authors": [
+    {
+      "name": "Arian Azmoudeh",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2024,
+  "venue": "International Conference on Technology, Engineering, and Life Sciences (ICTELS), pp. 29–51",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "",
+  "url": "",
+  "links": [
+    {
+      "label": "Proceedings (PDF)",
+      "url": "https://www.istes.org/storage/01JFNCRCH63JN2QYWNGJHK42Y8.pdf"
+    }
+  ]
+}

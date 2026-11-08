@@ -1,0 +1,29 @@
+{
+  "id": "dom-xss-extracted-scripts-2012",
+  "title": "Detection of DOM-based Cross-Site Scripting by Analyzing Dynamically Extracted Scripts",
+  "authors": [
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Shizhen Jin",
+      "personId": ""
+    },
+    {
+      "name": "Kyung-Goo Doh",
+      "personId": ""
+    }
+  ],
+  "year": 2012,
+  "venue": "6th International Conference on Information Security and Assurance (ISA)",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "buffer-management-review-2025",
+  "title": "Evolution of Buffer Management in Database Systems: From Classical Algorithms to Machine Learning and Disaggregated Memory",
+  "authors": [
+    {
+      "name": "Prudhvi Gadupudi",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2025,
+  "venue": "arXiv:2512.22995",
+  "type": "preprint",
+  "status": "preprint",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2512.22995",
+  "url": "https://arxiv.org/abs/2512.22995",
+  "links": []
+}

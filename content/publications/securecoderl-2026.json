@@ -1,0 +1,25 @@
+{
+  "id": "securecoderl-2026",
+  "title": "SecureCodeRL: Security-Aware Reinforcement Learning for Code Generation with Partial-Credit Rewards",
+  "authors": [
+    {
+      "name": "Suryansh Singh Sijwali",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "arXiv:2601.01184",
+  "type": "preprint",
+  "status": "preprint",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2601.01184",
+  "url": "https://arxiv.org/abs/2601.01184",
+  "links": []
+}

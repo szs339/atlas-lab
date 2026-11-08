@@ -1,0 +1,37 @@
+{
+  "id": "federated-tinyml-2026",
+  "title": "Reliable Federated TinyML Deployment for IoT Security",
+  "authors": [
+    {
+      "name": "Younsoo Park",
+      "personId": ""
+    },
+    {
+      "name": "Seokhyoen Bae",
+      "personId": ""
+    },
+    {
+      "name": "Shasi Kumar Ramachandran Prabhu",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Peilong Li",
+      "personId": ""
+    }
+  ],
+  "year": 2026,
+  "venue": "arXiv:2609.27202",
+  "type": "preprint",
+  "status": "preprint",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2609.27202",
+  "url": "https://arxiv.org/abs/2609.27202",
+  "links": []
+}

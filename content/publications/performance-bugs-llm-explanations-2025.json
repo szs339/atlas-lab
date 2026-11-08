@@ -1,0 +1,33 @@
+{
+  "id": "performance-bugs-llm-explanations-2025",
+  "title": "Fixing Performance Bugs Through LLM Explanations",
+  "authors": [
+    {
+      "name": "Suryansh Singh Sijwali",
+      "personId": ""
+    },
+    {
+      "name": "Angela Marie Colom",
+      "personId": ""
+    },
+    {
+      "name": "Anbi Guo",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2025,
+  "venue": "7th IEEE International Conference on Artificial Intelligence Testing (AITEST), pp. 102–109",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1109/aitest66680.2025.00020",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

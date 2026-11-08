@@ -1,0 +1,29 @@
+{
+  "id": "linux-error-handling-2011",
+  "title": "An Approach to Improving the Structure of Error-Handling Code in the Linux Kernel",
+  "authors": [
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    },
+    {
+      "name": "Julia Lawall",
+      "personId": ""
+    },
+    {
+      "name": "Gilles Muller",
+      "personId": ""
+    }
+  ],
+  "year": 2011,
+  "venue": "ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES), pp. 41–50",
+  "type": "conference",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "10.1145/1967677.1967684",
+  "pdf": "",
+  "url": "",
+  "links": []
+}

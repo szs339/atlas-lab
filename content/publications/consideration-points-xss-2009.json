@@ -1,0 +1,26 @@
+{
+  "id": "consideration-points-xss-2009",
+  "title": "Consideration Points: Detecting Cross-Site Scripting",
+  "authors": [
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2009,
+  "venue": "International Journal of Computer Science and Information Security, 4(1–2)",
+  "type": "journal",
+  "status": "published",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/0908.4188",
+  "url": "",
+  "links": [
+    {
+      "label": "Preprint",
+      "url": "https://arxiv.org/abs/0908.4188"
+    }
+  ]
+}

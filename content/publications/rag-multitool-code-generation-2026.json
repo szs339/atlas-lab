@@ -1,0 +1,37 @@
+{
+  "id": "rag-multitool-code-generation-2026",
+  "title": "Improving LLM-Assisted Secure Code Generation through Retrieval-Augmented-Generation and Multi-Tool Feedback",
+  "authors": [
+    {
+      "name": "Vidyut Sriram",
+      "personId": ""
+    },
+    {
+      "name": "Sawan Pandita",
+      "personId": ""
+    },
+    {
+      "name": "Achintya Lakshmanan",
+      "personId": ""
+    },
+    {
+      "name": "Aneesh Shamraj",
+      "personId": ""
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "arXiv:2601.00509",
+  "type": "preprint",
+  "status": "preprint",
+  "published": true,
+  "featured": false,
+  "projectIds": [],
+  "doi": "",
+  "pdf": "https://arxiv.org/pdf/2601.00509",
+  "url": "https://arxiv.org/abs/2601.00509",
+  "links": []
+}
