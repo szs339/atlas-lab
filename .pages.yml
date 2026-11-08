@@ -868,6 +868,10 @@ content:
       - name: cvPath
         label: Public CV (PDF)
         type: file
+      - name: heroImage
+        label: Homepage background image
+        type: image
+        description: Decorative image without text. A wide, dark image works best. Leave blank for a plain background.
       - name: opportunityIntro
         label: Opportunities introduction
         type: text

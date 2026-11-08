@@ -67,7 +67,7 @@ export const schemas = {
 };
 export const settingsSchema = z.strictObject({
   title: text, expansion: text, affiliation: text, intro: text, about: text,
-  email: z.string().email(), directorId: id, cvPath: optionalAsset,
+  email: z.string().email(), directorId: id, cvPath: optionalAsset, heroImage: optionalAsset,
   opportunityIntro: text, inquiryInstructions: text,
   featuredProjectLimit: z.number().int().min(1).max(12),
   recentNewsLimit: z.number().int().min(1).max(12),
