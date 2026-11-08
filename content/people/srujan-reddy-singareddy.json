@@ -13,5 +13,10 @@
       "url": "https://www.linkedin.com/in/srujan-reddy-singareddy-b9400518a"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Graduate researcher"
+    }
+  ]
 }

@@ -13,5 +13,10 @@
       "url": "https://www.wayup.com/profile/Amrutha-Somasundar-7d8e5a6aa7/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "acadia",
+      "role": "Graduate researcher"
+    }
+  ]
 }

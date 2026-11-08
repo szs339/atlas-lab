@@ -7,5 +7,10 @@
   "membershipStatus": "current",
   "position": "Penn State",
   "links": [],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "prompt-injection",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

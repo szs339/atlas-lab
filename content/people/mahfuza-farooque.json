@@ -13,5 +13,22 @@
       "url": "https://www.eecs.psu.edu/departments/directory-detail-g.aspx?q=MFF5187"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "acadia",
+      "role": "Collaborator"
+    },
+    {
+      "projectId": "alaaska",
+      "role": "Collaborator"
+    },
+    {
+      "projectId": "denver",
+      "role": "Collaborator"
+    },
+    {
+      "projectId": "sierra",
+      "role": "Collaborator"
+    }
+  ]
 }

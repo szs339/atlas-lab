@@ -13,5 +13,10 @@
       "url": "https://eeti.uga.edu/people_post/vincent-fakiyesi/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Graduate researcher"
+    }
+  ]
 }

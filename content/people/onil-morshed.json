@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/morson1"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

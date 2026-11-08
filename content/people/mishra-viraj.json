@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/viraj-mishra"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "prompt-injection",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

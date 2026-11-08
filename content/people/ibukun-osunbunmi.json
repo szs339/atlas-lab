@@ -13,5 +13,10 @@
       "url": "https://www.leonhardcenter.psu.edu/staff/osunbunmi-ibukun.aspx"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Collaborator"
+    }
+  ]
 }

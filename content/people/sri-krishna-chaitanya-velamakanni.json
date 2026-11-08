@@ -13,5 +13,10 @@
       "url": "https://peer.asee.org/next-gen-education-enhancing-ai-for-microlearning"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "denver",
+      "role": "Graduate researcher"
+    }
+  ]
 }

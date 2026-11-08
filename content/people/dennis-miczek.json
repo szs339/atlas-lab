@@ -16,5 +16,10 @@
       "url": "https://dmicz.dev/about/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "obfuscation",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

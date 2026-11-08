@@ -16,5 +16,10 @@
       "url": "https://rjf5768.github.io/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "obfuscation",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

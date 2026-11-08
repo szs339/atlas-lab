@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/divyesh-gabbireddy-369777254/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "obfuscation",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

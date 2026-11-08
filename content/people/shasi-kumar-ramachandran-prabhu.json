@@ -8,5 +8,10 @@
   "degree": "Master’s student",
   "position": "Penn State",
   "links": [],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "acadia",
+      "role": "Graduate researcher"
+    }
+  ]
 }

@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/wyatt-petula"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "acadia",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

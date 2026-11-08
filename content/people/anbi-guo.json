@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/anbi-guo-a5b956359"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "prompt-injection",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/sanan-goel"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "acadia",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

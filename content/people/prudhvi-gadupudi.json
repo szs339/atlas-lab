@@ -13,5 +13,10 @@
       "url": "https://www.linkedin.com/in/prudhvi-gadupudi-872251181/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Graduate researcher"
+    }
+  ]
 }

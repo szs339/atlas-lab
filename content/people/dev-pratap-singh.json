@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/d-e-v-s-i-n-g-h"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "obfuscation",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

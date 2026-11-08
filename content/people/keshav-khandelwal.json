@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/keshav-kh"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "prompt-injection",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

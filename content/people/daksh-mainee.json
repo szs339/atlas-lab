@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/daksh-mainee16"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "acadia",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }

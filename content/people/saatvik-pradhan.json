@@ -1,0 +1,21 @@
+{
+  "id": "saatvik-pradhan",
+  "published": true,
+  "name": "Saatvik Pradhan",
+  "role": "Former Undergraduate Researcher",
+  "category": "undergraduate",
+  "membershipStatus": "alumni",
+  "position": "Ph.D. student in Computer Science and Engineering, Penn State",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saatvik-pradhan/"
+    }
+  ],
+  "memberships": [
+    {
+      "projectId": "cisb-bench",
+      "role": "Undergraduate researcher"
+    }
+  ]
+}

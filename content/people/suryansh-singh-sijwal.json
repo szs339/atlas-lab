@@ -16,5 +16,10 @@
       "url": "https://suryanshss1011.github.io/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "toledo",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }
