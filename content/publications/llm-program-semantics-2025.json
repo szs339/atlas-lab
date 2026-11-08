@@ -1,10 +1,10 @@
 {
   "id": "llm-program-semantics-2025",
+  "published": true,
   "title": "Can LLMs Recover Program Semantics? A Systematic Evaluation with Symbolic Execution",
   "authors": [
     {
-      "name": "Rong Feng",
-      "personId": ""
+      "name": "Rong Feng"
     },
     {
       "name": "Suman Saha",
@@ -15,11 +15,10 @@
   "venue": "arXiv:2511.19130",
   "type": "preprint",
   "status": "preprint",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
-  "doi": "",
+  "projectIds": [
+    "obfuscation"
+  ],
   "pdf": "https://arxiv.org/pdf/2511.19130",
   "url": "https://arxiv.org/abs/2511.19130",
-  "links": []
+  "featured": false
 }
