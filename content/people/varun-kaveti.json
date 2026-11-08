@@ -1,0 +1,16 @@
+{
+  "id": "varun-kaveti",
+  "published": true,
+  "name": "Varun Kaveti",
+  "role": "Undergraduate Researcher",
+  "category": "undergraduate",
+  "membershipStatus": "current",
+  "position": "Penn State",
+  "links": [
+    {
+      "label": "University profile",
+      "url": "https://www.eon.psu.edu/board/"
+    }
+  ],
+  "memberships": []
+}

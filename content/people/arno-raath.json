@@ -1,0 +1,16 @@
+{
+  "id": "arno-raath",
+  "published": true,
+  "name": "Arno Raath",
+  "role": "Undergraduate Researcher",
+  "category": "undergraduate",
+  "membershipStatus": "current",
+  "position": "Penn State",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Arararano"
+    }
+  ],
+  "memberships": []
+}
