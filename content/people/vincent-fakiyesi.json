@@ -1,0 +1,17 @@
+{
+  "id": "vincent-fakiyesi",
+  "published": true,
+  "name": "Vincent Fakiyesi",
+  "role": "Graduate Researcher",
+  "category": "graduate",
+  "membershipStatus": "current",
+  "degree": "Ph.D. student, Engineering Education",
+  "position": "University of Georgia",
+  "links": [
+    {
+      "label": "University profile",
+      "url": "https://eeti.uga.edu/people_post/vincent-fakiyesi/"
+    }
+  ],
+  "memberships": []
+}

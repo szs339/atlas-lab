@@ -29,7 +29,7 @@ Create a project before other records refer to it. You may link drafts, but draf
 ## Add or update a person
 
 1. Enter name, role, category (graduate/undergraduate/etc.), and current/alumni membership status.
-2. Add the program, brief biography, dates, public profile links, and an optional photograph with alternative text.
+2. Add the program, brief biography, dates, public profile links, and an optional photograph with alternative text. Use **Involvement period (semesters or years)** for a period such as `Fall 2025 – Spring 2026` when exact dates are unknown; it replaces the displayed Joined/Left dates.
 3. Add project participation entries: project, role, and optional actual start/end dates. Leave the end date blank while participation continues.
 4. Publish and save.
 

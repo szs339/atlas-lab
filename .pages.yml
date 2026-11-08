@@ -911,6 +911,10 @@ content:
       - name: bio
         label: Short biography
         type: text
+      - name: involvementPeriod
+        label: Involvement period (semesters or years)
+        type: string
+        description: Optional display text, such as Fall 2025 – Spring 2026. Use this when exact dates are unknown. When filled, it replaces the displayed Joined/Left dates.
       - name: startDate
         label: Joined
         type: string

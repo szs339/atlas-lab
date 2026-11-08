@@ -18,6 +18,7 @@ const fields = {
   people: [...shared(), required('name', 'Full name'), required('role', 'Role / title'),
     select('category', 'Category', ['director', 'graduate', 'undergraduate', 'collaborator']),
     select('membershipStatus', 'Membership', ['current', 'alumni']), f('degree', 'Degree / program'), f('bio', 'Short biography', 'text'),
+    f('involvementPeriod', 'Involvement period (semesters or years)', 'string', {description:'Optional display text, such as Fall 2025 – Spring 2026. Use this when exact dates are unknown. When filled, it replaces the displayed Joined/Left dates.'}),
     date('startDate', 'Joined'), date('endDate', 'Left'), f('position', 'Current position'), date('positionVerified', 'Position last verified'),
     f('photo', 'Photograph', 'image'), f('photoAlt', 'Photograph description (required with a photo)', 'string', {description:'Add a short description whenever you select a photograph, for example: Portrait of Suman Saha. This is used by screen readers; leaving it blank prevents the site from publishing.'}), links(),
     f('memberships', 'Project participation', 'object', {list: true, fields: [ref('projectId', 'Project', 'projects', false, true), required('role', 'Project role'), date('startDate', 'Started'), date('endDate', 'Ended')]})

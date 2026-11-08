@@ -32,7 +32,7 @@ export const schemas = {
   people: z.strictObject({ ...common, name: text, role: text,
     category: z.enum(['director', 'graduate', 'undergraduate', 'collaborator']),
     membershipStatus: z.enum(['current', 'alumni']),
-    bio: optionalText, degree: optionalText, startDate: optionalDate, endDate: optionalDate,
+    bio: optionalText, degree: optionalText, involvementPeriod: optionalText, startDate: optionalDate, endDate: optionalDate,
     position: optionalText, positionVerified: optionalDate,
     photo: optionalAsset, photoAlt: optionalText, links: array(link), memberships: array(participation)
   }),

@@ -1,0 +1,21 @@
+{
+  "id": "abhiram-dodda",
+  "published": true,
+  "name": "Abhiram Dodda",
+  "role": "Graduate Researcher",
+  "category": "graduate",
+  "membershipStatus": "current",
+  "degree": "Master’s student",
+  "position": "Penn State",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/abhiramdodda"
+    },
+    {
+      "label": "Website",
+      "url": "https://abhiramdodda.github.io/"
+    }
+  ],
+  "memberships": []
+}

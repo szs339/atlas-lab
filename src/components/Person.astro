@@ -7,7 +7,7 @@ const { person, compact = false } = Astro.props;
   {person.photo ? <img class="portrait" src={href(person.photo)} alt={person.photoAlt} width="80" height="80" loading="lazy" /> : <div class="initials" aria-hidden="true">{person.name.split(' ').map(w => w[0]).slice(0, 2).join('')}</div>}
   <div class="person-content"><h3>{person.name}</h3><p class="record-meta">{person.role}{person.degree && ` · ${person.degree}`}</p>
     {person.bio && !compact && <p>{person.bio}</p>}
-    {person.startDate && <p class="small">{copy.people.involvement}: {displayDate(person.startDate)}{person.endDate ? ` – ${displayDate(person.endDate)}` : ` – ${copy.people.present}`}</p>}
+    {person.involvementPeriod ? <p class="small">{copy.people.involvement}: {person.involvementPeriod}</p> : person.startDate && <p class="small">{copy.people.involvement}: {displayDate(person.startDate)}{person.endDate ? ` – ${displayDate(person.endDate)}` : ` – ${copy.people.present}`}</p>}
     {person.position && <p>{person.membershipStatus === 'alumni' && <strong>{copy.people.position}: </strong>}{person.position}</p>}
     {person.positionVerified && <p class="small">{copy.people.verified} {displayDate(person.positionVerified)}</p>}
     <div class="record-links">{projectLinks(data, person.memberships.map(m => m.projectId)).map(p => <a href={href(`/projects/${p.slug}/`)}>{p.title}</a>)}{person.links.map(l => <a href={l.url}>{l.label}</a>)}</div>
