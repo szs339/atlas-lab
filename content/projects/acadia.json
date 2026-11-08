@@ -3,13 +3,10 @@
   "published": true,
   "slug": "acadia",
   "title": "ACADIA",
-  "expansion": "",
+  "expansion": "AI-guided Coding through Adaptive Decomposition, Interaction, and Animation",
   "summary": "Connecting planning, coding, and reflection to help students reason through programming problems and data structures.",
   "research": "ACADIA is an AI-supported programming environment organized around a Plan–Code–Reflect workflow. Students first discuss a proposed solution with an AI tutor, examining processing steps, state changes, and boundary cases. A visual representation helps them inspect and revise their plan before implementation.\n\nDuring coding, students work through subproblems with hints and execution-based correctness feedback. The platform supports automated decomposition of programming tasks and checks the resulting steps before they are used for instruction. During reflection, students compare visual representations of their original plan and submitted code to examine how their approach developed.\n\nThe research connects the technical reliability of generated subproblems with their instructional value. We examine when tutor questions prompt meaningful plan revision, how students interpret visualizations, and whether structured planning and reflection support reasoning about program behavior. Formative evaluations and classroom work in data structures inform ongoing refinement of the platform and the design of subsequent learning studies.",
   "theme": "learning",
   "status": "active",
-  "featured": false,
-  "image": "",
-  "imageAlt": "",
-  "links": []
+  "featured": false
 }
