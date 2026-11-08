@@ -24,6 +24,9 @@
   "venue": "57th ACM Technical Symposium on Computer Science Education (SIGCSE), pp. 838–844",
   "type": "conference",
   "status": "published",
+  "projectIds": [
+    "acadia"
+  ],
   "doi": "10.1145/3770762.3772509",
   "featured": true
 }
