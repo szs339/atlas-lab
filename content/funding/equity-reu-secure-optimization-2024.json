@@ -3,11 +3,6 @@
   "published": true,
   "title": "Secure Optimization using LLM",
   "sponsor": "College of Engineering EQUITY REU Program, Penn State",
-  "awardId": "",
-  "description": "Student research award secured by Saatvik Pradhan.",
-  "awardPeriod": "October 2024 – April 2025",
-  "startDate": "",
-  "endDate": "",
   "status": "completed",
   "amount": 3000,
   "currency": "USD",
@@ -15,6 +10,7 @@
   "investigators": [
     "Saatvik Pradhan (Student award recipient)"
   ],
-  "projectIds": [],
-  "url": ""
+  "projectIds": [
+    "cisb-bench"
+  ]
 }
