@@ -4,16 +4,13 @@
   "title": "Beyond Static Slides: Automated Video Generation for Education.",
   "authors": [
     {
-      "name": "Vai Patankar",
-      "personId": ""
+      "name": "Vai Patankar"
     },
     {
-      "name": "Veer Amish Shah",
-      "personId": ""
+      "name": "Veer Amish Shah"
     },
     {
-      "name": "Mahfuza Farooque",
-      "personId": ""
+      "name": "Mahfuza Farooque"
     },
     {
       "name": "Suman Saha",
@@ -24,10 +21,8 @@
   "venue": "SIGCSE Virtual: 2nd ACM Virtual Global Computing Education Conference, November 2026",
   "type": "poster",
   "status": "accepted",
-  "projectIds": [],
-  "doi": "",
-  "pdf": "",
-  "url": "",
-  "links": [],
+  "projectIds": [
+    "acadia"
+  ],
   "featured": false
 }
