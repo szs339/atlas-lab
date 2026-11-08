@@ -5,11 +5,8 @@
   "date": "2026-11-08",
   "body": "Suman Saha and Mahfuza Farooque received a $9,925 grant from the Leonhard Center at Penn State for “Next-Gen Education: Leveraging AI for Microlearning.” Saha served as principal investigator and Farooque as co-principal investigator. The award supported the project from July 2024 through May 2025.",
   "featured": false,
-  "projectIds": [],
   "personIds": [
-    "suman-saha"
-  ],
-  "publicationIds": [],
-  "fundingIds": [],
-  "links": []
+    "suman-saha",
+    "mahfuza-farooque"
+  ]
 }
