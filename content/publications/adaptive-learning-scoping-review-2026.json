@@ -1,14 +1,13 @@
 {
   "id": "adaptive-learning-scoping-review-2026",
+  "published": true,
   "title": "A Scoping Review of Adaptive Learning Systems in Engineering Education",
   "authors": [
     {
-      "name": "Vincent Fakiyesi",
-      "personId": ""
+      "name": "Vincent Fakiyesi"
     },
     {
-      "name": "Onil Morshed",
-      "personId": ""
+      "name": "Onil Morshed"
     },
     {
       "name": "Suman Saha",
@@ -19,11 +18,9 @@
   "venue": "ASEE Annual Conference & Exposition",
   "type": "conference",
   "status": "published",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
+  "projectIds": [
+    "alaaska"
+  ],
   "doi": "10.18260/1-2--59150",
-  "pdf": "",
-  "url": "",
-  "links": []
+  "featured": false
 }
