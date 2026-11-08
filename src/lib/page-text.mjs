@@ -14,7 +14,7 @@ export const textGroups = {
     projectsButton:['Primary button','Explore our research'], thesisLink:['Secondary link','Find a thesis direction'],
     projectsTitle:['Featured projects heading','Featured projects'],allProjects:['All projects link','All projects'],
     newsTitle:['News heading','Latest news'],allNews:['All news link','All news'],newsEmpty:['No news message','Research updates and lab announcements will appear here.','text'],
-    publicationsTitle:['Publications heading','Selected publications'],allPublications:['All publications link','All publications'],publicationsEmpty:['No publications message','The publication listing is being prepared.','text'],
+    publicationsTitle:['Publications heading','Recent publications'],allPublications:['All publications link','All publications'],publicationsEmpty:['No publications message','The publication listing is being prepared.','text'],
   }},
   themes:{label:'Research direction wording',fields:{
     learning:['Learning title','AI-supported learning and instruction'],
