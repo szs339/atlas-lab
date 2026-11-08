@@ -27,10 +27,9 @@ const canonical = !noindex && Astro.site ? new URL(Astro.url.pathname, Astro.sit
     <header class="site-header">
       <div class="container brand-row">
         <a class="brand" href={href('/')} aria-label={copy.brand.homeLabel}><strong>{copy.brand.wordmark}<span>{copy.brand.suffix}</span></strong><small>{copy.brand.affiliationTag}</small></a>
-        <p class="brand-description">{settings.expansion}</p>
       </div>
       <nav class="container site-nav" aria-label={copy.brand.navigationLabel}>
-        {nav.map(([label, url]) => <a href={href(url)} aria-current={(url === '/' ? current === '/' : current.startsWith(url)) ? 'page' : undefined}>{label}</a>)}
+        {nav.map(([label, url]) => <a class:list={{ 'nav-about': url === '/about/' }} href={href(url)} aria-current={(url === '/' ? current === '/' : current.startsWith(url)) ? 'page' : undefined}>{label}</a>)}
       </nav>
     </header>
     <main id="main"><slot /></main>

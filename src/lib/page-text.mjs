@@ -10,8 +10,8 @@ export const textGroups = {
   }},
   navigation:{label:'Navigation labels',fields:{home:['Home','Home'],projects:['Projects','Projects'],people:['People','People'],publications:['Publications','Publications'],news:['News','News'],opportunities:['Opportunities','Opportunities'],about:['About','About']}},
   home:{label:'Home page',fields:{
-    eyebrow:['Text above main heading','RESEARCH AT PENN STATE'], title:['Main heading, first line','Advancing trustworthy'], accent:['Main heading, emphasized line','learning and systems.'],
-    projectsButton:['Primary button','Explore our research'], thesisLink:['Secondary link','Find a thesis direction'], focusLabel:['Focus label','OUR FOCUS'], focusText:['Focus statement','Better support for learners.\nStronger evidence for AI.\nMore dependable systems.','text'], aboutLink:['About link','Meet ATLAS'],
+    title:['Main heading, first line','Advancing trustworthy'], accent:['Main heading, emphasized line','learning and systems.'],
+    projectsButton:['Primary button','Explore our research'], thesisLink:['Secondary link','Find a thesis direction'],
     themesEyebrow:['Research directions label','CONNECTED QUESTIONS'],themesTitle:['Research directions heading','Three research directions'],
     projectsEyebrow:['Featured projects label','RESEARCH IN PRACTICE'],projectsTitle:['Featured projects heading','Featured projects'],allProjects:['All projects link','All projects'],
     newsTitle:['News heading','Latest news'],allNews:['All news link','All news'],newsEmpty:['No news message','Research updates and lab announcements will appear here.','text'],

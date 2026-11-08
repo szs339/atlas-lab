@@ -99,10 +99,6 @@ content:
         type: object
         required: true
         fields:
-          - name: eyebrow
-            label: Text above main heading
-            type: string
-            required: true
           - name: title
             label: Main heading, first line
             type: string
@@ -117,18 +113,6 @@ content:
             required: true
           - name: thesisLink
             label: Secondary link
-            type: string
-            required: true
-          - name: focusLabel
-            label: Focus label
-            type: string
-            required: true
-          - name: focusText
-            label: Focus statement
-            type: text
-            required: true
-          - name: aboutLink
-            label: About link
             type: string
             required: true
           - name: themesEyebrow

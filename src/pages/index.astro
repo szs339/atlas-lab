@@ -10,12 +10,11 @@ const papers = data.publications.filter(p => p.featured).slice(0, settings.selec
 const news = data.news.slice(0, settings.recentNewsLimit);
 ---
 <Layout>
-  <section class="hero"><div class="container hero-grid"><div>
-    <p class="eyebrow">{copy.home.eyebrow}</p>
-    <h1>{copy.home.title}<br /><em>{copy.home.accent}</em></h1>
+  <section class="hero"><div class="container hero-content">
+    <h1>{copy.home.title}<br />{' '}<em>{copy.home.accent}</em></h1>
     <p class="lead">{settings.intro}</p>
     <div class="actions"><a class="button" href={href('/projects/')}>{copy.home.projectsButton} <span aria-hidden="true">→</span></a><a class="text-link" href={href('/opportunities/')}>{copy.home.thesisLink}</a></div>
-  </div><aside class="hero-note"><span class="eyebrow">{copy.home.focusLabel}</span><p class="prose-text">{copy.home.focusText}</p><a href={href('/about/')}>{copy.home.aboutLink} <span aria-hidden="true">→</span></a></aside></div></section>
+  </div></section>
   <div class="container">
     <section class="section"><div class="section-heading"><div><p class="eyebrow">{copy.home.themesEyebrow}</p><h2>{copy.home.themesTitle}</h2></div></div>
       <div class="theme-grid">{Object.entries(themeLabels).map(([key, name], i) => <article><span class="theme-number">0{i + 1}</span><h3>{name}</h3><p>{copy.themes[`${key}Description`]}</p></article>)}</div>

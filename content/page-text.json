@@ -21,14 +21,10 @@
     "about": "About"
   },
   "home": {
-    "eyebrow": "RESEARCH AT PENN STATE",
     "title": "Advancing trustworthy",
     "accent": "learning and systems.",
     "projectsButton": "Explore our research",
     "thesisLink": "Find an M.S. or honors thesis direction",
-    "focusLabel": "OUR FOCUS",
-    "focusText": "Better support for learners.\nStronger evidence for AI.\nMore dependable systems.",
-    "aboutLink": "Meet ATLAS",
     "themesEyebrow": "CONNECTED QUESTIONS",
     "themesTitle": "Three research directions",
     "projectsEyebrow": "RESEARCH IN PRACTICE",
