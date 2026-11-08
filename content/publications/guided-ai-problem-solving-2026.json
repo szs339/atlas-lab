@@ -1,22 +1,19 @@
 {
   "id": "guided-ai-problem-solving-2026",
+  "published": true,
   "title": "Designing Guided AI Systems to Foster Problem-Solving and Reflection in Computing Education",
   "authors": [
     {
-      "name": "Mahfuza Farooque",
-      "personId": ""
+      "name": "Mahfuza Farooque"
     },
     {
-      "name": "Veer Amish Shah",
-      "personId": ""
+      "name": "Veer Amish Shah"
     },
     {
-      "name": "Nikhil Khattar",
-      "personId": ""
+      "name": "Nikhil Khattar"
     },
     {
-      "name": "Sinjoy Saha",
-      "personId": ""
+      "name": "Sinjoy Saha"
     },
     {
       "name": "Suman Saha",
@@ -27,11 +24,7 @@
   "venue": "ASEE Annual Conference & Exposition",
   "type": "conference",
   "status": "published",
-  "published": true,
-  "featured": false,
-  "projectIds": [],
   "doi": "10.18260/1-2--58677",
-  "pdf": "",
   "url": "https://peer.asee.org/58677",
-  "links": []
+  "featured": true
 }
