@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/aryan-kumar-59a507216/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "casper",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }
