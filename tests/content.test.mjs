@@ -117,8 +117,8 @@ test('website wording is independently editable without changing record IDs', ()
   assert.deepEqual(pageTextSchema.parse(defaultPageText),defaultPageText);
 });
 test('invalid website-text fields fail with an actionable path', () => {
-  const d=fixture();d.pageText.home.title='';
-  assert.throws(()=>validateRecords(d),/pageText.home.title/);
-  d.pageText.home.title='A valid heading';d.pageText.brand.institutionUrl='javascript:alert(1)';
+  const d=fixture();d.pageText.home.directorLabel='';
+  assert.throws(()=>validateRecords(d),/pageText.home.directorLabel/);
+  d.pageText.home.directorLabel='Director';d.pageText.brand.institutionUrl='javascript:alert(1)';
   assert.throws(()=>validateRecords(d),/pageText.brand.institutionUrl/);
 });

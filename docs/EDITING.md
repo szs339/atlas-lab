@@ -69,7 +69,7 @@ These labels do not imply funded assistantships, university admission, or automa
 
 ## Replace the public CV
 
-In Lab settings, upload/select the PDF in the Public CV field and save. It will be stored under `public/uploads/`; the About and CV utility pages then expose the download. A new PDF can replace the selected document without editing a layout. Upload only the version intended for public release.
+In Lab settings, upload/select the PDF in the Public CV (PDF) field and save. It will be stored under `public/uploads/`; the homepage and CV utility page use this same download, and the About page links to it. A new PDF can replace the selected document without editing a layout. Upload only the version intended for public release.
 
 ## Fix a failed update or recover an earlier version
 

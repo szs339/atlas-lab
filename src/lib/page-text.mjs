@@ -10,8 +10,8 @@ export const textGroups = {
   }},
   navigation:{label:'Navigation labels',fields:{home:['Home','Home'],projects:['Projects','Projects'],people:['People','People'],publications:['Publications','Publications'],news:['News','News'],opportunities:['Opportunities','Opportunities'],about:['About','About']}},
   home:{label:'Home page',fields:{
-    title:['Main heading, first line','Advancing trustworthy'], accent:['Main heading, emphasized line','learning and systems.'],
-    projectsButton:['Primary button','Explore our research'], thesisLink:['Secondary link','Find a thesis direction'],
+    directorLabel:['Director role label','Director'],
+    projectsButton:['Primary button','Explore our research'], cvButton:['CV download link','Download CV'], contactButton:['Contact link','Contact'],
     projectsTitle:['Featured projects heading','Featured projects'],allProjects:['All projects link','All projects'],
     newsTitle:['News heading','Latest news'],allNews:['All news link','All news'],newsEmpty:['No news message','Research updates and lab announcements will appear here.','text'],
     publicationsTitle:['Publications heading','Recent publications'],allPublications:['All publications link','All publications'],publicationsEmpty:['No publications message','The publication listing is being prepared.','text'],

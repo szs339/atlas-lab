@@ -99,20 +99,20 @@ content:
         type: object
         required: true
         fields:
-          - name: title
-            label: Main heading, first line
-            type: string
-            required: true
-          - name: accent
-            label: Main heading, emphasized line
+          - name: directorLabel
+            label: Director role label
             type: string
             required: true
           - name: projectsButton
             label: Primary button
             type: string
             required: true
-          - name: thesisLink
-            label: Secondary link
+          - name: cvButton
+            label: CV download link
+            type: string
+            required: true
+          - name: contactButton
+            label: Contact link
             type: string
             required: true
           - name: projectsTitle
@@ -828,6 +828,7 @@ content:
       - name: cvPath
         label: Public CV (PDF)
         type: file
+        description: Upload or select the current PDF. The homepage and CV page use this same download.
       - name: heroImage
         label: Homepage background image
         type: image

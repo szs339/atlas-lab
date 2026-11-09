@@ -21,10 +21,10 @@
     "about": "About"
   },
   "home": {
-    "title": "Advancing trustworthy",
-    "accent": "learning and systems.",
+    "directorLabel": "Director",
+    "cvButton": "Download CV",
+    "contactButton": "Contact",
     "projectsButton": "Explore our research",
-    "thesisLink": "Find an M.S. or honors thesis direction",
     "projectsTitle": "Featured projects",
     "allProjects": "All projects",
     "newsTitle": "Latest news",

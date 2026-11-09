@@ -70,7 +70,7 @@ export function cmsConfig() {
       { name:'settings', label:'Lab settings', type:'file', path:'content/site.json', format:'json', fields:[
         required('title','Lab name'), required('expansion','Expanded name'), required('affiliation','Affiliation'),
         required('intro','Homepage introduction','text'), required('about','About the lab','text'), required('email','Contact email'),
-        ref('directorId','Director','people',false,true), f('cvPath','Public CV (PDF)','file'),
+        ref('directorId','Director','people',false,true), f('cvPath','Public CV (PDF)','file',{description:'Upload or select the current PDF. The homepage and CV page use this same download.'}),
         f('heroImage','Homepage background image','image',{description:'Decorative image without text. A wide, dark image works best. Leave blank for a plain background.'}),
         required('opportunityIntro','Opportunities introduction','text'), required('inquiryInstructions','Inquiry instructions','text'),
         required('featuredProjectLimit','Homepage projects','number'),required('recentNewsLimit','Homepage news items','number'),required('selectedPublicationLimit','Homepage publications','number')

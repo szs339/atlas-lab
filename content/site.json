@@ -2,7 +2,7 @@
   "title": "ATLAS Lab",
   "expansion": "Advancing Trustworthy Learning and Systems",
   "affiliation": "Penn State",
-  "intro": "At ATLAS Lab, we study how AI can support learning, make reasoning visible, and strengthen the trustworthiness of software and intelligent systems.",
+  "intro": "I lead ATLAS Lab at Penn State, where we study how AI can support learning, make reasoning visible, and strengthen the trustworthiness of software and intelligent systems.",
   "heroImage": "/uploads/atlas-research-banner.webp",
   "about": "ATLAS Lab at Penn State brings together research in computing education, human–AI interaction, and trustworthy systems. Our work connects the design of learning technologies with careful study of how people use them, alongside methods for understanding and improving software security.",
   "email": "szs339@psu.edu",
@@ -11,5 +11,6 @@
   "inquiryInstructions": "Email Dr. Saha with your program and degree, the project or question that interests you, relevant experience, and your intended thesis or project timeline. You may include a CV and links to previous work.",
   "featuredProjectLimit": 3,
   "recentNewsLimit": 5,
-  "selectedPublicationLimit": 3
+  "selectedPublicationLimit": 3,
+  "cvPath": "/uploads/SahaCV-2026-Nov.pdf"
 }

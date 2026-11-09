@@ -21,6 +21,8 @@ The website source should live in a GitHub repository owned by your account or l
 
 Website text is grouped by page and shared components. Research-area wording can change without altering internal category IDs. Navigation labels can change without changing page addresses. For example, renaming the navigation label Projects to Research keeps `/projects/` working.
 
+The homepage introduction uses the person selected as Director in Lab settings. Edit that person's name, Role / title, position and photograph in People to update the homepage profile. Lab settings controls the lab name, expanded name, Homepage introduction, background image, contact email and Public CV (PDF). Website text → Home page controls the director label and the research, CV and contact link wording. Selecting a new CV updates both the homepage download and `/cv/` after the site rebuilds.
+
 ## Normal update routine
 
 1. Open https://app.pagescms.org/ and sign in with your authorized GitHub account.
