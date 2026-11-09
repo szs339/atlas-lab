@@ -17,6 +17,34 @@
     {
       "projectId": "cisb-bench",
       "role": "Faculty lead"
+    },
+    {
+      "projectId": "acadia",
+      "role": "Faculty lead"
+    },
+    {
+      "projectId": "casper",
+      "role": "Faculty lead"
+    },
+    {
+      "projectId": "denver",
+      "role": "Faculty lead"
+    },
+    {
+      "projectId": "obfuscation",
+      "role": "Faculty lead"
+    },
+    {
+      "projectId": "prompt-injection",
+      "role": "Faculty lead"
+    },
+    {
+      "projectId": "sierra",
+      "role": "Faculty lead"
+    },
+    {
+      "projectId": "toledo",
+      "role": "Faculty lead"
     }
   ]
 }
