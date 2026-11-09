@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/pranav-attrey/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "cisb-bench",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }
