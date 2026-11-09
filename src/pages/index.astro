@@ -6,23 +6,26 @@ import NewsItem from '../components/NewsItem.astro';
 import { data, settings, href, copy } from '../lib/site.mjs';
 
 const director = data.people.find(p => p.id === settings.directorId)!;
+const expansionParts = settings.expansion.match(/^(.*?)\s+(Learning and Systems)$/i);
 const projects = data.projects.filter(p => p.featured).slice(0, settings.featuredProjectLimit);
 const papers = data.publications.filter(p => p.featured).slice(0, settings.selectedPublicationLimit);
 const news = data.news.filter(item => item.featured).slice(0, settings.recentNewsLimit);
 ---
 <Layout>
-  <section class="hero home-hero" aria-labelledby="director-name">
+  <section class="hero home-hero" aria-labelledby="lab-name">
     {settings.heroImage && <img class="hero-art" src={href(settings.heroImage)} alt="" aria-hidden="true" decoding="async" />}
-    <div class:list={['container hero-content profile-intro', { 'without-portrait': !director.photo }]}>
-      {director.photo && <img class="director-portrait" src={href(director.photo)} alt={director.photoAlt} width="400" height="500" fetchpriority="high" />}
-      <div class="profile-copy">
+    <div class="container hero-content profile-intro">
+      <div class="director-profile">
+        {director.photo && <img class="director-portrait" src={href(director.photo)} alt={director.photoAlt} width="240" height="280" fetchpriority="high" />}
         <h1 id="director-name">{director.name}</h1>
         <p class="profile-role">{director.role}</p>
         {director.position && <p class="profile-affiliation">{director.position}</p>}
         <p class="profile-lab-role">{copy.home.directorLabel}, {settings.title}</p>
+      </div>
+      <div class="lab-profile">
         <div class="lab-intro">
-          <h2>{settings.title}</h2>
-          <p class="lab-expansion">{settings.expansion}</p>
+          <h2 id="lab-name">{settings.title}</h2>
+          <p class="lab-expansion">{expansionParts ? <><span>{expansionParts[1]}</span>{' '}<em>{expansionParts[2]}</em></> : settings.expansion}</p>
           <p class="lead">{settings.intro}</p>
         </div>
         <div class="actions">
