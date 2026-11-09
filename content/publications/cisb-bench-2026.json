@@ -1,0 +1,33 @@
+{
+  "id": "cisb-bench-2026",
+  "published": true,
+  "title": "CISB-Bench: An Auditable Source–IR Dataset of Compiler-Introduced Security Bugs",
+  "authors": [
+    {
+      "name": "Saatvik Pradhan",
+      "personId": "saatvik-pradhan"
+    },
+    {
+      "name": "Anuroop Saini",
+      "personId": "anuroop-saini"
+    },
+    {
+      "name": "Pranav Attrey",
+      "personId": "pranav-attrey"
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2026,
+  "venue": "arXiv:2610.07635",
+  "type": "preprint",
+  "status": "preprint",
+  "projectIds": [
+    "cisb-bench"
+  ],
+  "pdf": "https://arxiv.org/pdf/2610.07635",
+  "url": "https://arxiv.org/abs/2610.07635",
+  "featured": false
+}
