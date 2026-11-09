@@ -12,5 +12,14 @@
       "url": "https://www.linkedin.com/in/zamilzahir/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Undergraduate researcher"
+    },
+    {
+      "projectId": "acadia",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }
