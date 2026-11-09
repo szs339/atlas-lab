@@ -21,6 +21,10 @@ const news = data.news.filter(item => item.featured).slice(0, settings.recentNew
         <p class="profile-role">{director.role}</p>
         {director.position && <p class="profile-affiliation">{director.position}</p>}
         <p class="profile-lab-role">{copy.home.directorLabel}, {settings.title}</p>
+        <div class="actions profile-actions">
+          {settings.cvPath && <a class="text-link profile-link" href={href(settings.cvPath)} download>{copy.home.cvButton}</a>}
+          <a class="text-link profile-link" href={`mailto:${settings.email}`}>{copy.home.contactButton}</a>
+        </div>
       </div>
       <div class="lab-profile">
         <div class="lab-intro">
@@ -30,8 +34,6 @@ const news = data.news.filter(item => item.featured).slice(0, settings.recentNew
         </div>
         <div class="actions">
           <a class="button" href={href('/projects/')}>{copy.home.projectsButton} <span aria-hidden="true">→</span></a>
-          {settings.cvPath && <a class="text-link profile-link" href={href(settings.cvPath)} download>{copy.home.cvButton}</a>}
-          <a class="text-link profile-link" href={`mailto:${settings.email}`}>{copy.home.contactButton}</a>
         </div>
       </div>
     </div>
