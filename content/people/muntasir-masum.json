@@ -1,0 +1,17 @@
+{
+  "id": "muntasir-masum",
+  "published": true,
+  "name": "Muntasir Masum",
+  "role": "Assistant Professor of Epidemiology and Biostatistics",
+  "category": "collaborator",
+  "membershipStatus": "current",
+  "bio": "Dr. Masum studies alcohol epidemiology, social determinants of health, and machine learning for population health. His work includes open, reproducible methods for analyzing public health surveys and AI-supported harmonization of health data.",
+  "position": "University at Albany, State University of New York, College of Integrated Health Sciences",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://muntasirmasum.com/"
+    }
+  ],
+  "memberships": []
+}
