@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/anuroopsaini193/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "cisb-bench",
+      "role": "Undergraduate Researcher"
+    }
+  ]
 }
