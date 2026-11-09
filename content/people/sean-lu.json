@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/seanlu0903/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "sierra",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }
