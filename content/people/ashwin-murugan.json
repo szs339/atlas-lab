@@ -6,6 +6,14 @@
   "category": "undergraduate",
   "membershipStatus": "current",
   "position": "Penn State",
-  "links": [],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "alaaska",
+      "role": "Undergraduate researcher"
+    },
+    {
+      "projectId": "acadia",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }
