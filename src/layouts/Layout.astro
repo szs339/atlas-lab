@@ -11,6 +11,14 @@ const canonical = !noindex && Astro.site ? new URL(Astro.url.pathname, Astro.sit
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    {import.meta.env.PROD && <Fragment>
+      <script is:inline async src="https://www.googletagmanager.com/gtm.js?id=GTM-M3XHKMPT"></script>
+      <script is:inline>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      </script>
+    </Fragment>}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex" />}

@@ -55,6 +55,12 @@ This structure is intended for a research lab's projects, people, papers, and an
 
 Filtering currently loads all listed records into the page. If the collection grows into many thousands of entries, add pagination or a generated search index. The data layout can remain the same. Neither unlimited hosting nor zero future maintenance is promised: periodically review dependencies, backups, public records, and service limits.
 
-The design uses system font fallbacks plus optional Google Fonts, with no tracking or analytics code. Removing the CSS font import makes typography fully local. No Penn State logo asset is included. The text identity can be refined with approved university branding later.
+The design uses system font fallbacks plus optional Google Fonts. Removing the CSS font import makes typography fully local. No Penn State logo asset is included. The text identity can be refined with approved university branding later.
+
+## Website analytics
+
+The shared layout installs Google's current tag snippet once per page in production builds, using container `GTM-M3XHKMPT`, connected to GA4 measurement destination `G-C6T9QBNXRP`. Astro's development server omits the tag so local editing does not add analytics traffic. Do not install a second tag or add a separate GA4 configuration snippet alongside this container.
+
+Page views and PDF-link clicks are managed through the web stream's Enhanced measurement settings in Google Analytics. Use the Country and Region dimensions for broad location reports. For CV activity, filter `file_download` events by the current CV file name or link URL. These events count clicks, not confirmed completed downloads, and do not cover direct visits to the PDF. The website's appearance and CMS content editing are independent of these analytics settings.
 
 The account-backed deployment and actual CMS commit round trip cannot be verified until a GitHub repository and authorized editor account are connected.
