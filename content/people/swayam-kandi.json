@@ -12,5 +12,10 @@
       "url": "https://www.linkedin.com/in/swayam-kandoi-76546a279/"
     }
   ],
-  "memberships": []
+  "memberships": [
+    {
+      "projectId": "casper",
+      "role": "Undergraduate researcher"
+    }
+  ]
 }
