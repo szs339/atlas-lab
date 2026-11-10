@@ -1,0 +1,20 @@
+{
+  "id": "vai-patankar",
+  "published": true,
+  "name": "Vai Patankar",
+  "role": "Undergraduate Researcher",
+  "category": "undergraduate",
+  "membershipStatus": "current",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vai-patankar-7411a237a/"
+    }
+  ],
+  "memberships": [
+    {
+      "projectId": "denver",
+      "role": "Undergraduate researcher"
+    }
+  ]
+}
