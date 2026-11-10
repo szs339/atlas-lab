@@ -1,0 +1,26 @@
+{
+  "id": "classroom-readiness-ai-videos-poster-2027",
+  "published": true,
+  "title": "Classroom Readiness of AI-Generated Computing Videos: A Matched Evaluation",
+  "authors": [
+    {
+      "name": "Vai Patankar"
+    },
+    {
+      "name": "Mahfuza Farooque",
+      "personId": "mahfuza-farooque"
+    },
+    {
+      "name": "Suman Saha",
+      "personId": "suman-saha"
+    }
+  ],
+  "year": 2027,
+  "venue": "58th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2027), Sacramento, CA, USA, February 2027",
+  "type": "poster",
+  "status": "accepted",
+  "projectIds": [
+    "denver"
+  ],
+  "featured": false
+}
