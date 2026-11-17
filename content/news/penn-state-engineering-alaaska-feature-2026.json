@@ -1,0 +1,24 @@
+{
+  "id": "penn-state-engineering-alaaska-feature-2026",
+  "published": true,
+  "title": "Penn State Engineering highlights NSF-funded ALAASKA research in interview with Suman Saha",
+  "date": "2026-11-13",
+  "body": "Penn State’s College of Engineering featured Suman Saha in a Q&A about the two-year, $199,009 NSF Research Initiation in Engineering Formation grant supporting ALAASKA. The interview explores how adaptive questions, hints, and feedback can support student reasoning and responsible AI use in engineering education.\n\nSaha discusses the platform’s classroom use and a planned comparative study of conversational microlearning. Stephanie Cutler and Ibukun Osunbunmi serve as co-principal investigators on the project.",
+  "featured": false,
+  "projectIds": [
+    "alaaska"
+  ],
+  "personIds": [
+    "suman-saha"
+  ],
+  "publicationIds": [],
+  "fundingIds": [
+    "nsf-rief-responsible-ai-2026"
+  ],
+  "links": [
+    {
+      "label": "Read the Penn State Q&A",
+      "url": "https://www.psu.edu/news/engineering/story/qa-leveraging-artificial-intelligence-propel-engineering-education"
+    }
+  ]
+}
