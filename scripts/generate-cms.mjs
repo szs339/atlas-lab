@@ -27,6 +27,7 @@ const fields = {
     required('summary', 'Short summary', 'text'), f('research', 'Research overview', 'text'),
     select('theme', 'Research theme', Object.entries(themes).map(([name,label])=>({name,label}))),
     select('status', 'Project status', ['active', 'completed']), f('featured', 'Feature on homepage', 'boolean', {default: false}),
+    f('logo', 'Project logo', 'image', {description: 'Optional logo with the project name. Replaces the visible title on the project page; the project name remains available to screen readers. Leave blank to show the text title.'}),
     f('image', 'Project image', 'image'), f('imageAlt', 'Image description'), links()
   ],
   publications: [...shared(), required('title', 'Paper title'),

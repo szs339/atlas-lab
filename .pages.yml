@@ -1048,6 +1048,10 @@ content:
         label: Feature on homepage
         type: boolean
         default: false
+      - name: logo
+        label: Project logo
+        type: image
+        description: Optional logo with the project name. Replaces the visible title on the project page; the project name remains available to screen readers. Leave blank to show the text title.
       - name: image
         label: Project image
         type: image

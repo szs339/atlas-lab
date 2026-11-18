@@ -13,7 +13,9 @@ const former = people.filter(p => !current.includes(p));
 ---
 <Layout title={project.title} description={project.summary}><div class="container page-content">
   <a class="breadcrumb" href={href('/projects/')}>← {copy.projectPage.back}</a>
-  <div class="page-head"><p class="eyebrow">{themeLabels[project.theme]} <span aria-hidden="true">/</span> {copy.projects[project.status]}</p><h1>{project.title}</h1>{project.expansion && <p class="project-expansion">{project.expansion}</p>}<p class="lead">{project.summary}</p><div class="record-links">{project.links.map(l => <a href={l.url}>{l.label} →</a>)}</div></div>
+  <div class="page-head"><p class="eyebrow">{themeLabels[project.theme]} <span aria-hidden="true">/</span> {copy.projects[project.status]}</p>
+    <h1>{project.logo ? <img class="project-logo" src={href(project.logo)} alt={project.title} width="340" height="114" decoding="async" /> : project.title}</h1>
+    {project.expansion && <p class="project-expansion">{project.expansion}</p>}<p class="lead">{project.summary}</p><div class="record-links">{project.links.map(l => <a href={l.url}>{l.label} →</a>)}</div></div>
   {project.image && <img class="project-image" src={href(project.image)} alt={project.imageAlt} loading="lazy" />}
   {project.research && <section class="section" id="research"><h2>{copy.projectPage.research}</h2><p class="prose-text wide-prose">{project.research}</p></section>}
   {people.length > 0 && <section class="section" id="people"><h2>{copy.projectPage.people}</h2><div class="people-grid">{current.map(p => <div><Person person={p} compact /><p class="small participation">{p.memberships.find(m=>m.projectId===project.id)?.role}</p></div>)}</div>{former.length > 0 && <><h3 class="subheading">{copy.projectPage.former}</h3><div class="people-grid">{former.map(p => <Person person={p} compact />)}</div></>}</section>}
@@ -22,3 +24,8 @@ const former = people.filter(p => !current.includes(p));
   {resources.length > 0 && <section class="section" id="resources"><h2>{copy.projectPage.resources}</h2>{resources.map(r => <article class="record" id={`resource-${r.id}`}><p class="record-meta">{copy.resourceTypes[r.type]}</p><h3><a href={href(r.url)}>{r.title} →</a></h3>{r.description && <p>{r.description}</p>}</article>)}</section>}
   {news.length > 0 && <section class="section" id="news"><h2>{copy.projectPage.newsTitle}</h2>{news.map(item => <NewsItem item={item} />)}</section>}
 </div></Layout>
+
+<style>
+  .project-logo { display:block; width:min(340px,100%); height:114px; object-fit:contain; object-position:left center; }
+  @media (max-width:640px) { .project-logo { width:min(280px,100%); height:94px; } }
+</style>

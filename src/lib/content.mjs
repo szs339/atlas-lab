@@ -39,7 +39,7 @@ export const schemas = {
   projects: z.strictObject({ ...common, slug: id, title: text, expansion: optionalText,
     summary: text, research: optionalText, theme: z.enum(['learning', 'interaction', 'systems']),
     status: z.enum(['active', 'completed']), featured: z.boolean().default(false),
-    image: optionalAsset, imageAlt: optionalText, links: array(link)
+    logo: optionalAsset, image: optionalAsset, imageAlt: optionalText, links: array(link)
   }),
   publications: z.strictObject({ ...common, title: text,
     authors: z.array(z.strictObject({ name: text, personId: z.preprocess(v => v == null ? '' : v, z.union([z.literal(''), id])) })).min(1),
